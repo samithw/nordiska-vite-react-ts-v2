@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 type Props = {}
 
@@ -8,25 +8,25 @@ const Navbar = (props: Props) => {
     <nav>
       <ul
         id="mainNav"
-        className="hidden md:flex flex-col font-zen text-2xl absolute left-0 w-full top-32 bg-white bg-opacity-90 md:flex-row md:relative md:w-auto md:bg-transparent md:space-x-5 lg:space-x-10  md:top-0 md:text-white lg:text-base md:text-sm"
+        className="hidden md:flex flex-col font-zen text-2xl absolute left-0 w-full top-32 bg-white bg-opacity-90 md:flex-row md:relative md:w-auto md:bg-transparent md:space-x-5 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm"
       >
         <li className="nav-item">
-          <Link to="/">home</Link>
+          <NavLink to="/"><span>home</span></NavLink>
         </li>
         <li className="nav-item">
-          <Link to="/about">about</Link>
+          <NavLink to="/about"><span>about</span></NavLink>
         </li>
         <li className="nav-item">
-          <a href="#">products</a>
+          <a href="#"><span>products</span></a>
         </li>
         <li className="nav-item">
-        <Link to="/services">services</Link>
+        <NavLink to="/services"><span>services</span></NavLink>
         </li>
         <li className="nav-item">
-        <Link to="/technology">technology</Link>
+        <NavLink to="/technology"><span>technology</span></NavLink>
         </li>
         <li className="nav-item">
-          <a href="#">contact us</a>
+          <a href="#"><span>contact</span></a>
         </li>
       </ul>
       <button className="md:hidden" id="mobileNavBtn">
