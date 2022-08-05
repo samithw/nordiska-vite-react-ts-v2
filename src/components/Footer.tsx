@@ -75,7 +75,20 @@ const Footer = (props: Props) => {
                 </div>
             </div>
 
-            <div className="w-full md:w-[30%] flex space-x-10 md:space-x-0 md:block text-white text-lg mt-14">
+            <div className="w-full md:w-[30%] flex gap-20 md:block text-white text-lg mt-14">
+                
+                <div className='shrink-0'>
+                    <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>
+                    <ul>
+                        <li><a href="#" className="w-fit">Home</a></li>
+                        <li><a href="#" className="w-fit">About us</a></li>
+                        <li><a href="#" className="w-fit">Products</a></li>
+                        <li><a href="#" className="w-fit">Services</a></li>
+                        <li><a href="#" className="w-fit">Technology</a></li>
+                        <li><a href="#" className="w-fit">Contact us</a></li>
+                    </ul>
+                </div>
+                
                 <div className='shrink-0'>
                     <h3 className="font-zen text-lg text-nsgreen my-2">services</h3>
                     <ul>
@@ -86,17 +99,7 @@ const Footer = (props: Props) => {
                     </ul>
                 </div>
 
-                <div className='shrink-0'>
-                    <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>
-                    <ul className='grid grid-rows-3 grid-flow-col gap-x-2 overflow-auto md:block'>
-                        <li><a href="#" className="w-fit">Home</a></li>
-                        <li><a href="#" className="w-fit">About us</a></li>
-                        <li><a href="#" className="w-fit">Products</a></li>
-                        <li><a href="#" className="w-fit">Services</a></li>
-                        <li><a href="#" className="w-fit">Technology</a></li>
-                        <li><a href="#" className="w-fit">Contact us</a></li>
-                    </ul>
-                </div>
+                
                 
             </div>
         </div>

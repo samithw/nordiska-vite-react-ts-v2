@@ -8,7 +8,7 @@ const About = (props: Props) => {
   return (
     <>
         <HeroSection imgurl='./src/assets/images/about__banner.png'>
-          <h1 className=" text-5xl text-white">the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</h1>
+          <h1 className=" text-4xl md:text-5xl text-white">the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</h1>
         </HeroSection>
         <PageQuote>
           <span>We strive to implement long term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies and thorough understanding of all parties involved in the business &nbsp;</span>

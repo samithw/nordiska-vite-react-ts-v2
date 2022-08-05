@@ -9,7 +9,7 @@ const Services = (props: Props) => {
   return (
     <>
         <HeroSection imgurl='./src/assets/images/services__banner.png'>
-            <h1 className=" text-5xl text-white">grow with <br /> <span className="text-nsgreen">nordiska solutions</span></h1>
+            <h1 className=" text-4xl md:text-5xl text-white">grow with <br /> <span className="text-nsgreen">nordiska solutions</span></h1>
         </HeroSection>
 
         <PageQuote>

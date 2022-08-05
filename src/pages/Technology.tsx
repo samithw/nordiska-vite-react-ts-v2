@@ -9,7 +9,7 @@ const Technology = (props: Props) => {
   return (
     <>
         <HeroSection imgurl='./src/assets/images/tech__banner.png'>
-            <h1 className=" text-5xl text-white">nordic <br /> <span className="text-nsgreen">high-end</span> <br /> cleantech</h1>
+            <h1 className=" text-4xl md:text-5xl text-white">nordic <br /> <span className="text-nsgreen">high-end</span> <br /> cleantech</h1>
         </HeroSection>
         <PageQuote>
             <span>Nordiska Solutions is committed to provide primarily “Nordic” high-end cleantech products and solutions for both municipal and industrial applications. We offer customised solutions in water treatment, wastewater treatment and sloid / hazardous waste management to our regional and global customers. &nbsp;</span>
