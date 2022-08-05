@@ -8,15 +8,15 @@ const ContentSection = (props : Props) => {
 
     return(
         <>
-        <div className="w-full " style={{backgroundImage: props.bgImageCSS }}>
-            <div className="md:container  text-white font-zenMaru min-h-[100vh] flex flex-col justify-center mx-auto p-10 py-20">
+        <div className="w-full bg-cover" style={{backgroundImage: props.bgImageCSS }}>
+            <div className="md:container text-white font-zenMaru min-h-[100vh] flex flex-col justify-center mx-auto p-10 py-20">
                 <h3 className="font-zen text-5xl text-nsgreen">{props.sectionTitle}</h3>
-                <div className="flex gap-28 my-10">
-                    <div className="w-3/4 text-2xl leading-10">
+                <div className="flex flex-col-reverse md:flex-row gap-10 my-10">
+                    <div className=" text-2xl leading-10">
                         {props.children}
                     </div>
-                    <div className=" w-80">
-                        <img className=" w-10/12" src={props.sectionImageURL} />   
+                    <div className=" shrink-0">
+                        <img className="w-64" src={props.sectionImageURL} />   
                     </div>
                 </div>
                 <ButtonType1>{props.buttonTitle}</ButtonType1>
