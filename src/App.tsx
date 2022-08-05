@@ -9,14 +9,6 @@ import Technology from './pages/Technology'
 
 function App() {
 
-  /*return (
-    <div className="App">
-       <Header /> 
-       <HeroSection />
-       <Footer />
-    </div>
-  )*/
-
   return (
     <>
       <Header /> 
