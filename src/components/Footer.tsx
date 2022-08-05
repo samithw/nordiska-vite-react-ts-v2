@@ -5,7 +5,7 @@ type Props = {}
 const Footer = (props: Props) => {
   return (
     <div className="w-full min-h-[50vh] items-start bg-[#2D2F36]">
-        <div className="md:container flex relative mx-auto p-10 space-x-20">
+        <div className="md:container md:flex relative mx-auto p-10 md:space-x-20">
             <div className="w-full md:w-[70%]">
                 <a href="#">
                     <img
@@ -75,33 +75,29 @@ const Footer = (props: Props) => {
                 </div>
             </div>
 
-            <div className="w-full md:w-[30%] flex flex-col text-white text-lg">
-                <h3 className="font-zen text-lg text-nsgreen my-2 mt-16">services</h3>
-                <a href="#" className="w-fit">
-                    Business Support
-                </a>
-                <a href="#" className="w-fit">
-                    Sales &amp; Marketing
-                </a>
-                <a href="#" className="w-fit">
-                    Business Matchmaking
-                </a>
-                <a href="#" className="w-fit">
-                    Consultancy
-                </a>
-                <h3 className="font-zen text-lg text-nsgreen my-2 mt-10">quicklinks</h3>
-                <a href="#" className="w-fit">
-                    About us
-                </a>
-                <a href="#" className="w-fit">
-                    Products
-                </a>
-                <a href="#" className="w-fit">
-                    Technology
-                </a>
-                <a href="#" className="w-fit">
-                    Contact us
-                </a>
+            <div className="w-full md:w-[30%] flex space-x-10 md:space-x-0 md:block text-white text-lg mt-14">
+                <div className='shrink-0'>
+                    <h3 className="font-zen text-lg text-nsgreen my-2">services</h3>
+                    <ul>
+                        <li><a href="#" className="w-fit">Business Support</a></li>
+                        <li><a href="#" className="w-fit">Sales &amp; Marketing</a></li>
+                        <li><a href="#" className="w-fit">Business Matchmaking</a></li>
+                        <li><a href="#" className="w-fit">Consultancy</a></li>
+                    </ul>
+                </div>
+
+                <div className='shrink-0'>
+                    <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>
+                    <ul className='grid grid-rows-3 grid-flow-col gap-x-2 overflow-auto md:block'>
+                        <li><a href="#" className="w-fit">Home</a></li>
+                        <li><a href="#" className="w-fit">About us</a></li>
+                        <li><a href="#" className="w-fit">Products</a></li>
+                        <li><a href="#" className="w-fit">Services</a></li>
+                        <li><a href="#" className="w-fit">Technology</a></li>
+                        <li><a href="#" className="w-fit">Contact us</a></li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
         <p className="text-white text-center py-2">
