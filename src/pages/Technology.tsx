@@ -15,7 +15,7 @@ const Technology = (props: Props) => {
             <span>Nordiska Solutions is committed to provide primarily “Nordic” high-end cleantech products and solutions for both municipal and industrial applications. We offer customised solutions in water treatment, wastewater treatment and sloid / hazardous waste management to our regional and global customers. &nbsp;</span>
         </PageQuote>
 
-        <ContentSection sectionTitle='technology' buttonTitle='Inquire' bgImageCSS='linear-gradient(45deg, #061923 10%, #073E4A 90%)' sectionImageURL='./src/assets/images/tech__main__icon.png'>
+        <ContentSection sectionTitle='technology' buttonTitle='Inquire' bgImageCSS='linear-gradient(45deg, #073E4A 10%, #073E4A 90%)' sectionImageURL='./src/assets/images/tech__main__icon.png'>
             <>
               <p>We constantly work together with our customers and technology providers in order to guarantee the very highest level of customer satisfaction and sustainability. The success of our clients depends on the skills and commitment of our people and we constantly pursue the innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
 
