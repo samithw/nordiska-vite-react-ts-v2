@@ -19,7 +19,7 @@ const Footer = (props: Props) => {
                     skills, experience, knowledge, capital and network. If you are looking
                     for your business partners, start here!
                 </p>
-                <div className="w-full flex space-x-10">
+                <div className="w-full flex flex-wrap gap-10">
                     <div className="w-[50%] text-white">
                     <h3 className="font-zen text-lg text-nsgreen my-2">get in touch</h3>
                     <p className="flex items-center space-x-1">
@@ -75,7 +75,7 @@ const Footer = (props: Props) => {
                 </div>
             </div>
 
-            <div className="w-full md:w-[30%] flex gap-20 md:block text-white text-lg mt-14">
+            <div className="w-full md:w-[30%] flex flex-wrap gap-20 md:block text-white text-lg mt-14">
                 
                 <div className='shrink-0'>
                     <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>
