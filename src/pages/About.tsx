@@ -14,8 +14,8 @@ const About = (props: Props) => {
           <span>We strive to implement long term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies and thorough understanding of all parties involved in the business &nbsp;</span>
         </PageQuote>
 
-        <div className="w-full min-h-[80vh]" style={{backgroundImage: 'linear-gradient(45deg, #001140 30%, #010d31 70%)'}}>
-        <div className="md:container flex flex-col gap-20 md:flex-row mx-auto p-10">
+        <div className="content-wrapper" style={{backgroundImage: 'linear-gradient(45deg, #001140 30%, #010d31 70%)'}}>
+        <div className="container flex flex-col gap-20 md:flex-row">
           <div className="text-white md:basis-1/2 font-zenMaru text-2xl">
             <h3 className="font-zen text-nsgreen text-4xl">history</h3>
             <p className="my-10">Nordiska Solutions is Finnish-Malaysian joint company which has developed a cluster business concept with some leading environmental companies in Europe and Japan who are active in water, wastewater and solids waste management technologies and solutions. </p>

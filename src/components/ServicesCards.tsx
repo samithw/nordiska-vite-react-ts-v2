@@ -4,8 +4,8 @@ type Props = {}
 
 const ServicesCards = (props: Props) => {
   return (
-    <div className="w-full bg-center bg-no-repeat bg-cover bg-sky-900" style={{backgroundImage: 'url("./src/assets/images/ourservicesbanner.png")'}}>
-        <div className="md:container relative mx-auto px-10 py-10">
+    <div className="content-wrapper" style={{backgroundImage: 'url("./src/assets/images/ourservicesbanner.png")'}}>
+        <div className="container relative">
           <h1 className="lg:absolute text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1>
           <div className='flex flex-row justify-center flex-wrap font-zen '>
             <div className="icon-wrapper">

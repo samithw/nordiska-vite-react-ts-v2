@@ -8,8 +8,8 @@ const ContentSection = (props : Props) => {
 
     return(
         <>
-        <div className="w-full bg-cover" style={{backgroundImage: props.bgImageCSS }}>
-            <div className="md:container text-white font-zenMaru min-h-[100vh] flex flex-col justify-center mx-auto p-10 py-20">
+        <div className="content-wrapper" style={{backgroundImage: props.bgImageCSS }}>
+            <div className="container h-screen text-white font-zenMaru flex flex-col justify-center">
                 <h3 className="font-zen text-5xl text-nsgreen">{props.sectionTitle}</h3>
                 <div className="flex flex-col-reverse md:flex-row gap-10 my-10">
                     <div className=" text-2xl leading-10">

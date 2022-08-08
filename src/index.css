@@ -8,6 +8,11 @@
     }
     .container {
         @apply sm:max-w-[100%] md:max-w-[100%] lg:max-w-[100%] xl:max-w-[1280px] /*2xl:max-w-[1536px]*/;
+        @apply mx-auto;
+    }
+
+    .content-wrapper{
+        @apply  w-full h-auto bg-center bg-no-repeat bg-cover;
     }
 
     .btn-w{
