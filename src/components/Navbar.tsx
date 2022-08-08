@@ -8,7 +8,8 @@ const Navbar = (props: Props) => {
     <nav>
       <ul
         id="mainNav"
-        className="hidden md:flex flex-col font-zen text-2xl absolute left-0 w-full top-32 bg-white bg-opacity-90 md:flex-row md:relative md:w-auto md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm"
+        className="hidden fixed right-0 top-0 h-screen w-1/2 z-10 font-zen text-2xl bg-slate-700 bg-opacity-90
+         md:relative md:flex md:flex-row md:w-auto md:h-auto md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm"
       >
         <li className="nav-item">
           <NavLink to="/"><span>home</span></NavLink>
