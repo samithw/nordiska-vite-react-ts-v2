@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { MouseEventHandler, useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 type Props = {}
 
 const Navbar = (props: Props) => {
+
+  const [menuStatus, setMenuStatus] = useState(false)
+  const mainNav = useRef(null)
+
+  const handleCLick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setMenuStatus(!menuStatus)
+  }
+
   return (
     <nav>
-      <ul
+      <ul 
         id="mainNav"
-        className="hidden fixed right-0 top-0 h-screen w-1/2 z-10 font-zen text-2xl bg-slate-700 bg-opacity-90
-         md:relative md:flex md:flex-row md:w-auto md:h-auto md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm"
+        className={!menuStatus ? "hidden " : null +' fixed right-0 top-0 h-screen w-1/2 z-10 font-zen text-2xl bg-slate-700 bg-opacity-90 md:relative md:flex md:flex-row md:w-auto md:h-auto md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm'}
       >
         <li className="nav-item">
           <NavLink to="/"><span>home</span></NavLink>
@@ -30,7 +37,7 @@ const Navbar = (props: Props) => {
           <a href="#"><span>contact</span></a>
         </li>
       </ul>
-      <button className="md:hidden" id="mobileNavBtn">
+      <button onClick={handleCLick} className="md:hidden" id="mobileNavBtn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8 text-white"
