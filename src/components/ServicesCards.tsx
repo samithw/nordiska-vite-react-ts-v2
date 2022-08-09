@@ -6,7 +6,7 @@ const ServicesCards = (props: Props) => {
   return (
     <div className="content-wrapper" style={{backgroundImage: 'url("./src/assets/images/ourservicesbanner.png")'}}>
         <div className="container relative">
-          <h1 className="lg:absolute text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1>
+          <h1 className="lg:absolute text-4xl lg:text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1>
           <div className='flex flex-row justify-center flex-wrap font-zen '>
             <div className="icon-wrapper">
               <div className="w-2/3 aspect-square mx-auto">
