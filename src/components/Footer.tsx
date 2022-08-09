@@ -75,7 +75,7 @@ const Footer = (props: Props) => {
                 </div>
             </div>
 
-            <div className="w-full md:w-[30%] flex flex-wrap gap-20 md:block text-white text-lg mt-14">
+            <div className="w-full md:w-[30%] flex flex-wrap gap-10 md:block text-white text-lg mt-14">
                 
                 <div className='shrink-0'>
                     <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>

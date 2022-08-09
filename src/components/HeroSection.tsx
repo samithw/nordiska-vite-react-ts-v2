@@ -7,7 +7,7 @@ const HeroSection = (props: Props) => {
   return (
     <>
       <div className="content-wrapper" style={{backgroundImage: "url('" + props.imgurl + "')"}}>
-        <div className="container h-1/2 md:h-screen min-h-[500px] flex items-end pb-[10vh] md:pb-[15vh]">
+        <div className="container md:h-screen min-h-[600px] flex items-end pb-[5vw]">
           <div className=' items-end font-zen break-words'>
               {props.children}
            </div>

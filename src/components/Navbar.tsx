@@ -32,7 +32,7 @@ const Navbar = (props: Props) => {
   return (
     <nav>
       <ul ref={mainNavRef} id="mainNav"
-        className={ isHidden + ' fixed right-0 top-0 min-h-screen h-full w-1/2 z-10 font-zen text-2xl bg-slate-700 bg-opacity-90 pt-30 md:relative md:flex md:flex-row md:w-auto md:h-auto md:min-h-0 md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 md:text-white lg:text-base md:text-sm'}
+        className={ isHidden + ' fixed right-0 top-0 min-h-screen h-full w-1/2 z-10 font-zen text-2xl bg-zinc-800 bg-opacity-90 pt-30 md:relative md:flex md:flex-row md:w-auto md:h-auto md:min-h-0 md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 text-white lg:text-base md:text-sm'}
       >
         <li className="nav-item">
           <NavLink to="/"><span>home</span></NavLink>
