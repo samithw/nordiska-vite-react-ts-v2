@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
                 <a href="#">
                     <img
                     className="h-10 aspect-auto align-middle"
-                    src="./src/assets/images/ns__logo__trans1.png"
+                    src="images/ns__logo__trans1.png"
                     alt="Nordiska Solutions Logo"
                     />
                 </a>
@@ -71,7 +71,7 @@ const Footer = (props: Props) => {
                 </div>
                 <div className="w-full">
                     <h3 className="font-zen text-lg text-nsgreen my-2">location</h3>
-                    <img src="./src/assets/images/location__dummy.png" />
+                    <img src="images/location__dummy.png" />
                 </div>
             </div>
 

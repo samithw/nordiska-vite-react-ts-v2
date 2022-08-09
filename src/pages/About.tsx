@@ -7,7 +7,7 @@ type Props = {}
 const About = (props: Props) => {
   return (
     <>
-        <HeroSection imgurl='./src/assets/images/about__banner.png'>
+        <HeroSection imgurl='images/about__banner.png'>
           <h1 className=" text-4xl md:text-5xl text-white">the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</h1>
         </HeroSection>
         <PageQuote>
