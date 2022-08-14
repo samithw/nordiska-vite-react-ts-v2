@@ -14,7 +14,7 @@ const Footer = (props: Props) => {
                     alt="Nordiska Solutions Logo"
                     />
                 </a>
-                <p className="text-white font-zenMaru text-lg my-5">
+                <p className="text-white font-zenMaru text-lg md:text-xl my-5">
                     Strategic partners mean a lot to your business. They may bring you
                     skills, experience, knowledge, capital and network. If you are looking
                     for your business partners, start here!

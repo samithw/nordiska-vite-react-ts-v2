@@ -9,10 +9,10 @@ const ContentSection = (props : Props) => {
     return(
         <>
         <div className="content-wrapper" style={{backgroundImage: props.bgImageCSS }}>
-            <div className="container min-h-screen text-white font-zenMaru flex flex-col justify-center">
+            <div className="container md:min-h-screen text-white font-zenMaru flex flex-col justify-center">
                 <h3 className="font-zen text-4xl lg:text-5xl text-nsgreen">{props.sectionTitle}</h3>
                 <div className="flex flex-col-reverse md:flex-row gap-10 my-10">
-                    <div className=" text-2xl leading-10">
+                    <div className=" text-xl md:text-2xl md:leading-10">
                         {props.children}
                     </div>
                     <div className=" shrink-0">
