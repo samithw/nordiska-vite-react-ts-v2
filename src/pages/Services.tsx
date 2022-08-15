@@ -17,14 +17,13 @@ const Services = (props: Props) => {
             <span>We create value through strong, trusting relationships with our clients so they have the freedom and peace of mind to tackle other business issues. In fact, more than 80% of our business comes from returning clients who put their continued trust in ADF. &nbsp;</span>
         </PageQuote>
 
-        <ContentSection>
+        <ContentSection contentBgCSS = "linear-gradient(45deg, #1D3B42 10%, #1D3B42 90%)">
             {{
               contentBody : (
                 <p>In a complex world you need to discover smart ways and creative solutions. Nordiska Solutions introduce professional services such as sales channel development, sales leads generation, follow-up works, and business networking, after supports in order to expand your business globally.  </p>
               ),
               contentTitle : "business support",
               contentImageURL : "images/icon__business__support.png",
-              contentBgCSS : "linear-gradient(45deg, #1D3B42 10%, #1D3B42 90%)",
               contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
             }}
         </ContentSection>

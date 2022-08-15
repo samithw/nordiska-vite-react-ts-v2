@@ -17,7 +17,7 @@ const Technology = (props: Props) => {
             <span>Nordiska Solutions is committed to provide primarily “Nordic” high-end cleantech products and solutions for both municipal and industrial applications. We offer customised solutions in water treatment, wastewater treatment and sloid / hazardous waste management to our regional and global customers. &nbsp;</span>
         </PageQuote>
 
-        <ContentSection>
+        <ContentSection contentBgCSS = "linear-gradient(45deg, #073E4A 10%, #073E4A 90%)">
             {{
               contentTitle : "technology",
               contentBody : (
@@ -27,8 +27,7 @@ const Technology = (props: Props) => {
               <p className="mt-10 hidden">Whether you are seeking to find partners individually or on a corporate basis, we will provide you the perfect match according to your requirements.</p>
               </>),
               contentLink : <ButtonType1 toPath="/services">Inquire</ButtonType1>,
-              contentImageURL : "images/tech__main__icon.png",
-              contentBgCSS : "linear-gradient(45deg, #073E4A 10%, #073E4A 90%)"
+              contentImageURL : "images/tech__main__icon.png"
             }}
         </ContentSection>
         
