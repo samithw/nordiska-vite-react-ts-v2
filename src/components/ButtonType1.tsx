@@ -1,10 +1,13 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-type Props = {children : React.ReactNode}
+type Props = {children : React.ReactNode, toPath : string}
 
 const ButtonType1 = (props: Props) => {
   return (
-    <button className=" w-fit text-xl md:text-2xl bg-transparent hover:bg-blue-500 text-white hover:text-white py-2 px-4 md:px-8 pb-3 border hover:border-transparent rounded-2xl leading-7">{props.children}</button>
+    <NavLink to={props.toPath} className="btn-type1"> 
+      {props.children} 
+    </NavLink>
   )
 }
 
