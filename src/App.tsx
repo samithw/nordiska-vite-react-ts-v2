@@ -1,5 +1,5 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import About from './pages/About'
@@ -9,8 +9,19 @@ import Technology from './pages/Technology'
 
 function App() {
 
+  const ScrollToTop = () => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
+
   return (
     <>
+      <ScrollToTop />
       <Header /> 
       <Routes>
         <Route path='/' element= {<Home />}   />
@@ -24,3 +35,4 @@ function App() {
 }
 
 export default App
+
