@@ -5,9 +5,12 @@ type Props = {children : React.ReactNode, toPath : string}
 
 const ButtonType1 = (props: Props) => {
   return (
+    
     <NavLink to={props.toPath} className="btn-type1"> 
       {props.children} 
     </NavLink>
+
+    
   )
 }
 

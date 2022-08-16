@@ -16,8 +16,11 @@ const Home = () => {
           <h3 className=" text-sm md:text-lg text-white">to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></h3>
         </HeroSection>
         <ServicesCards />
-        <ContentSection contentBgCSS='url("images/pexels-luis-quintero-2774556 1.png")'>
+        <ContentSection>
           {{
+              contentBgCSS : {
+                backgroundImage :'url("images/pexels-luis-quintero-27745561.png")'
+              },
               contentTitle : "who we are",
               contentBody : (
               <p>Nordiska Solutions is Finnish-Malaysian joint company which has developed a cluster business concept with some leading environmental companies in Europe and Japan who are active in water, wastewater and solids waste management technologies and solutions.</p>
