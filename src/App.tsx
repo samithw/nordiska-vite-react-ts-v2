@@ -10,10 +10,17 @@ import Technology from './pages/Technology'
 function App() {
 
   const ScrollToTop = () => {
-    const { pathname } = useLocation();
-  
+    const { hash, pathname } = useLocation();
+
     useEffect(() => {
-      window.scrollTo(0, 0);
+      setTimeout(() => {
+        hash ?
+        document.querySelector(hash)?.scrollIntoView({behavior : "smooth", block : "end"}) : 
+        window.scrollTo({top:0 , left:0 , behavior : 'smooth'});
+      }, 50);
+
+      
+
     }, [pathname]);
   
     return null;
