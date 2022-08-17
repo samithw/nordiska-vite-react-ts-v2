@@ -40,9 +40,9 @@ const Navbar = (props: Props) => {
         <li className="nav-item">
           <NavLink to="/about"><span>about</span></NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a href="#"><span>products</span></a>
-        </li>
+        </li> */}
         <li className="nav-item">
         <NavLink to="/services"><span>services</span></NavLink>
         </li>
