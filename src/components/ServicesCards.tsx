@@ -1,15 +1,49 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
+import ButtonType1 from './ButtonType1'
 
 type Props = {}
 
-const ServicesCards = (props: Props) => {
-  return (
-    <div className="content-wrapper" style={{backgroundImage: 'url("images/ourservicesbanner.png")'}}>
-        <div className="container relative">
-          <h1 className="lg:absolute text-4xl lg:text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1>
-          <div className='flex flex-row justify-center flex-wrap font-zen '>
 
+
+const ServicesCards = (props: Props) => {
+
+  const nextCard = useRef<HTMLButtonElement>(null);
+  const previousCard = useRef<HTMLButtonElement>(null);
+  const scrollWrapper = useRef<HTMLDivElement>(null);
+
+  useEffect(()=>{
+
+    let cardWidth : number
+
+      nextCard.current?.addEventListener("click" , (el) => {
+        cardWidth = document.querySelectorAll<HTMLElement>('.icon-wrapper')[0].scrollWidth
+        scrollWrapper.current?.scrollBy({left : cardWidth , behavior : 'smooth'})
+      })
+
+      previousCard.current?.addEventListener("click" , (el) => {
+        cardWidth = document.querySelectorAll<HTMLElement>('.icon-wrapper')[0].scrollWidth
+        scrollWrapper.current?.scrollBy({left : -cardWidth , behavior : 'smooth'})
+      })
+
+    //}
+  })
+
+  return (
+    
+    <div className = "content-wrapper" style = {{ backgroundImage: 'url("images/ourservicesbanner.png")'}}>
+        <div className="container relative flex justify-center">
+          
+          {/* <h1 className="lg:absolute text-4xl lg:text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1> */}
+          
+          <button ref={previousCard} className=' text-white hidden md:block'>
+            <svg xmlns="http://www.w3.org/2000/svg" className=" h-20 w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto font-zen w-auto md:overflow-hidden overflow-x-scroll">
+            
             <NavLink className="icon-wrapper" to="/services#business-support">
               <div className="w-2/3 aspect-square mx-auto">
                 <img className=" w-full aspect-auto" src="images/icon__b__support.png" alt="" />
@@ -46,6 +80,13 @@ const ServicesCards = (props: Props) => {
             </NavLink>
 
           </div>
+
+          <button ref={nextCard} className=' text-white hidden md:block'>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>      
+          </button>
+
         </div>
       </div>
   )
