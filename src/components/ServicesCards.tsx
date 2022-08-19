@@ -45,8 +45,8 @@ const ServicesCards = (props: Props) => {
           
           {/* <h1 className="lg:absolute text-4xl lg:text-5xl font-zen text-nsgreen lg:top-10 lg:left-10 mb-10">our services</h1> */}
           
-          <button ref={previousCard} className=' text-white hidden md:block'>
-            <svg xmlns="http://www.w3.org/2000/svg" className=" h-20 w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+          <button ref={previousCard} className=' text-white hidden md:block mr-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" className=" h-20 w-10" fill="none" viewBox="6 0 10 24" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
           </button>
@@ -90,8 +90,8 @@ const ServicesCards = (props: Props) => {
 
           </div>
 
-          <button ref={nextCard} className=' text-white hidden md:block'>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-20" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+          <button ref={nextCard} className=' text-white hidden md:block ml-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-10" fill="none" viewBox="7 0 10 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>      
           </button>

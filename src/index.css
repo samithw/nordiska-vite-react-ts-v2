@@ -4,7 +4,7 @@
 
 @layer components{
     .icon-wrapper{
-        @apply items-center flex flex-col justify-center shrink-0 w-[90%] md:w-[30%] bg-cyan-600 bg-opacity-60 /*min-w-[20rem] min-w-[11rem] max-w-[13rem]*/ hover:bg-gradient-to-b from-transparent via-rose-500 hover:bg-opacity-20 rounded-3xl min-h-[60vh] lg:min-h-[80vh] m-0 snap-start snap-always;
+        @apply items-center flex flex-col justify-center shrink-0 w-[80%] md:w-[30%] min-w-[16rem] max-w-[20rem] bg-cyan-600 bg-opacity-60 hover:bg-gradient-to-b from-transparent via-rose-500 hover:bg-opacity-20 rounded-3xl min-h-[60vh] lg:min-h-[80vh] m-0 snap-start snap-always;
     }
     .container {
         @apply sm:max-w-[100%] md:max-w-[100%] lg:max-w-[100%] xl:max-w-[1280px] /*2xl:max-w-[1536px]*/;
