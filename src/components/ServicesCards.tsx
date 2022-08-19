@@ -12,7 +12,7 @@ const ServicesCards = (props: Props) => {
   const previousCard = useRef<HTMLButtonElement>(null);
   const scrollWrapper = useRef<HTMLDivElement>(null);
 
-  useEffect(()=>{
+  useEffect(() => {
 
     let cardWidth : number
 
@@ -25,6 +25,15 @@ const ServicesCards = (props: Props) => {
         cardWidth = document.querySelectorAll<HTMLElement>('.icon-wrapper')[0].scrollWidth
         scrollWrapper.current?.scrollBy({left : -cardWidth , behavior : 'smooth'})
       })
+
+      scrollWrapper.current?.addEventListener("touchmove" , (event) => {
+        //cardWidth = document.querySelectorAll<HTMLElement>('.icon-wrapper')[0].scrollWidth
+        //event.preventDefault()
+        scrollWrapper.current?.scrollBy({left : cardWidth , behavior : 'smooth'})
+        //console.log(event)
+      }, false)
+
+    
 
     //}
   })
@@ -42,7 +51,7 @@ const ServicesCards = (props: Props) => {
             </svg>
           </button>
 
-          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto font-zen w-auto md:overflow-hidden overflow-x-scroll">
+          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto font-zen w-auto overflow-x-scroll  snap-mandatory snap-x">
             
             <NavLink className="icon-wrapper" to="/services#business-support">
               <div className="w-2/3 aspect-square mx-auto">
