@@ -4,7 +4,7 @@
 
 @layer components{
     .icon-wrapper{
-        @apply items-center flex flex-col justify-center shrink-0 w-[80%] md:w-[30%] min-w-[16rem] max-w-[20rem] bg-cyan-600 bg-opacity-60 hover:bg-gradient-to-b from-transparent via-rose-500 hover:bg-opacity-20 rounded-3xl min-h-[60vh] lg:min-h-[80vh] m-0 snap-start snap-always;
+        @apply flex flex-col justify-start shrink-0 w-[80%] md:w-[30%] min-w-[16rem] max-w-[20rem] bg-gray-800 bg-opacity-90 p-6 rounded-3xl min-h-[60vh] lg:min-h-[80vh] m-0 snap-start snap-always;
     }
     .container {
         @apply sm:max-w-[100%] md:max-w-[100%] lg:max-w-[100%] xl:max-w-[1280px] /*2xl:max-w-[1536px]*/;
@@ -16,11 +16,11 @@
     }
 
     .btn-w{
-        @apply text-white border rounded-lg px-3 py-1 my-5;
+        @apply text-white align-middle text-lg font-zenMaru hover:bg-teal-600 border rounded-2xl hover:border-transparent leading-7 px-4 my-5;
     }
 
     .btn-type1{
-        @apply  w-fit text-xl md:text-2xl bg-transparent hover:bg-blue-500 text-white hover:text-white py-2 px-4 md:px-8 pb-3 border hover:border-transparent rounded-2xl leading-7;
+        @apply  w-fit text-xl md:text-2xl bg-transparent hover:bg-teal-600 text-white hover:text-white py-2 px-4 md:px-8 pb-3 border hover:border-transparent rounded-2xl leading-7;
     }
 
     .nav-item a{

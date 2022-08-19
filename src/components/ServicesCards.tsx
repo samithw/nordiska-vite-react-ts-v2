@@ -1,6 +1,7 @@
 import React, {useRef, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import ButtonType1 from './ButtonType1'
+import CarouselCard from './CarouselCard'
 
 type Props = {}
 
@@ -51,9 +52,50 @@ const ServicesCards = (props: Props) => {
             </svg>
           </button>
 
-          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto font-zen w-auto overflow-x-scroll  snap-mandatory snap-x">
+          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto py-3 font-zen w-auto overflow-x-scroll md:overflow-x-hidden snap-mandatory snap-x">
             
-            <NavLink className="icon-wrapper" to="/services#business-support">
+            <CarouselCard>
+                {{
+                  cardImageURL : "images/icon__b__support.png",
+                  cardTitle : "Business Support",
+                  cardSummary : "",
+                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                }}
+
+            </CarouselCard>
+
+            <CarouselCard>
+                {{
+                  cardImageURL : "images/icon__sales__marketing.png",
+                  cardTitle : "Sales & Marketing",
+                  cardSummary : "",
+                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                }}
+
+            </CarouselCard>
+
+            <CarouselCard>
+                {{
+                  cardImageURL : "images/icon__sales__marketing.png",
+                  cardTitle : "Sales & Marketing",
+                  cardSummary : "",
+                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                }}
+
+            </CarouselCard>
+
+            <CarouselCard>
+                {{
+                  cardImageURL : "images/icon__sales__marketing.png",
+                  cardTitle : "Sales & Marketing",
+                  cardSummary : "",
+                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                }}
+
+            </CarouselCard>
+            
+
+            {/* <NavLink className="icon-wrapper" to="/services#business-support">
               <div className="w-2/3 aspect-square mx-auto">
                 <img className=" w-full aspect-auto" src="images/icon__b__support.png" alt="" />
               </div>
@@ -86,7 +128,7 @@ const ServicesCards = (props: Props) => {
                 <img className=" w-full aspect-auto" src="images/icon__consultancy.png" alt="" />
               </div>
               <p className="w-3/4 text-center text-xl font-zen text-white">Consultancy</p>
-            </NavLink>
+            </NavLink> */}
 
           </div>
 
