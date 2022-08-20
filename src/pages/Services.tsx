@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import ButtonType1 from '../components/ButtonType1'
 import ContentSection from '../components/ContentSection'
 import Footer from '../components/Footer'
@@ -27,7 +28,7 @@ const Services = (props: Props) => {
               </>),
               contentTitle : "business support",
               contentImageURL : "images/icon__business__support.png",
-              contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>
             }}
         </ContentSection>
         <ContentSection uniqueId='sales-marketing'>
@@ -40,7 +41,7 @@ const Services = (props: Props) => {
               </>),
               contentTitle : "sales & marketing",
               contentImageURL : "images/icon2__sales__marketing.png",
-              contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>
             }}
         </ContentSection>
         <ContentSection uniqueId='tech-solutions'>
@@ -53,7 +54,7 @@ const Services = (props: Props) => {
               </>),
               contentTitle : "technology solutions",
               contentImageURL : "images/icon__business__support.png",
-              contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>
             }}
         </ContentSection>
         <ContentSection uniqueId='business-matchmaking'>
@@ -66,7 +67,7 @@ const Services = (props: Props) => {
               </>),
               contentTitle : "business matchmaking",
               contentImageURL : "images/icon__business__match.png",
-              contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>
             }}
         </ContentSection>
         <ContentSection uniqueId='consultancy'>
@@ -79,7 +80,7 @@ const Services = (props: Props) => {
               </>),
               contentTitle : "consutancy",
               contentImageURL : "images/icon2__consultancy.png",
-              contentLink : <ButtonType1 toPath='/'>Inquire</ButtonType1>
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>
             }}
         </ContentSection>
         

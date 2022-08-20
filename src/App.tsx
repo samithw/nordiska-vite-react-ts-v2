@@ -17,7 +17,7 @@ function App() {
         hash ?
         document.querySelector(hash)?.scrollIntoView({behavior : "smooth", block : "end"}) : 
         window.scrollTo({top:0 , left:0 , behavior : 'smooth'});
-      }, 50);
+      }, 100);
 
       
 

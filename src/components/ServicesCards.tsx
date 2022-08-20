@@ -52,14 +52,14 @@ const ServicesCards = (props: Props) => {
             </svg>
           </button>
 
-          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto py-3 font-zen w-auto overflow-x-scroll md:overflow-x-hidden snap-mandatory snap-x">
+          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto py-3 w-auto overflow-x-scroll md:overflow-x-hidden snap-mandatory snap-x">
             
             <CarouselCard>
                 {{
                   cardImageURL : "images/icon__b__support.png",
                   cardTitle : "Business Support",
                   cardSummary : "",
-                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
             </CarouselCard>
@@ -69,7 +69,7 @@ const ServicesCards = (props: Props) => {
                   cardImageURL : "images/icon__sales__marketing.png",
                   cardTitle : "Sales & Marketing",
                   cardSummary : "",
-                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
             </CarouselCard>
@@ -79,7 +79,7 @@ const ServicesCards = (props: Props) => {
                   cardImageURL : "images/icon__sales__marketing.png",
                   cardTitle : "Sales & Marketing",
                   cardSummary : "",
-                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
             </CarouselCard>
@@ -89,7 +89,7 @@ const ServicesCards = (props: Props) => {
                   cardImageURL : "images/icon__sales__marketing.png",
                   cardTitle : "Sales & Marketing",
                   cardSummary : "",
-                  cardLink : <a href='/services' className='btn-w'>see more</a>
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
             </CarouselCard>

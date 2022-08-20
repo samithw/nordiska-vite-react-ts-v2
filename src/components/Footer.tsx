@@ -65,7 +65,7 @@ const Footer = (props: Props) => {
                             placeholder="Your e-mail here"
                         />
                         <a href="">
-                            <button className="btn-w">Subscribe</button>
+                            <button className="btn-w my-2 bg-cyan-800">subscribe</button>
                         </a>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import ButtonType1 from '../components/ButtonType1'
 import ContentSection from '../components/ContentSection'
 import Footer from '../components/Footer'
@@ -26,7 +27,7 @@ const Home = () => {
               <p>Nordiska Solutions is Finnish-Malaysian joint company which has developed a cluster business concept with some leading environmental companies in Europe and Japan who are active in water, wastewater and solids waste management technologies and solutions.</p>
               ),
               contentImageURL : "images/icon__who.png",
-              contentLink : <ButtonType1 toPath='/about'>See more</ButtonType1>
+              contentLink : <NavLink to='/about' className='btn-type1'>see more</NavLink>
           }}
         </ContentSection>
         <Footer />
