@@ -6,18 +6,22 @@ type Props = {
         cardTitle : string,
         cardSummary : string,
         cardLink? : React.ReactNode,
-        cardImageURL : string
+        cardImageURL : string,
+        bgColorStyle : React.CSSProperties
     }
 }
 
 const CarouselCard = (props: Props) => {
   return (
-    <div className="icon-wrapper">
-        <h3 className="w-3/4 text-left text-xl font-zen text-white py-5"> {props.children.cardTitle} </h3>
+    <div className="icon-wrapper" style = {props.children.bgColorStyle}>
+      <div className=' w-full rounded-t-3xl p-6 '>
+        <img className=" w-1/4" src={props.children.cardImageURL} />
+        <h3 className="w-full text-left text-xl font-zen text-white pt-4 underline-offset-2 decoration-2 underline decoration-white"> {props.children.cardTitle} </h3>
+      </div>
+
+        <p className='text-white font-zenMaru p-6'> {props.children.cardSummary} </p>
         
-        <p className='text-white font-zenMaru'>In a complex world you need to discover smart ways and creative solutions. Nordiska Solutions introduce professional services such as sales channel development, sales leads generation, follow-up works, and business networking, after supports in order to expand your business globally.</p>
-        
-        <div className=' mt-auto'>{props.children.cardLink}</div>
+        <div className=' mt-auto p-6'>{props.children.cardLink}</div>
     </div>
   )
 }

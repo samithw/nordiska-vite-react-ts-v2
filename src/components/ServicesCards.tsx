@@ -56,9 +56,14 @@ const ServicesCards = (props: Props) => {
             
             <CarouselCard>
                 {{
-                  cardImageURL : "images/icon__b__support.png",
-                  cardTitle : "Business Support",
-                  cardSummary : "",
+                  bgColorStyle : {
+                    backgroundColor : "#40798C" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Business matchmaking",
+
+                  cardSummary : "Are you looking for a sales partner or distributor for your products or services who can open the door to the Asia-Pacific region? Or, are you looking high-end technology and solutions provider/manufacture in cleantech sector from Nordic and Central Europe region?",
+
                   cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
@@ -66,9 +71,12 @@ const ServicesCards = (props: Props) => {
 
             <CarouselCard>
                 {{
-                  cardImageURL : "images/icon__sales__marketing.png",
-                  cardTitle : "Sales & Marketing",
-                  cardSummary : "",
+                  bgColorStyle : {
+                    backgroundColor : "#004369" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Direct market entrance",
+                  cardSummary : "We manage your business in Asia-Pacific during the initial stages of your market entrance, literally creating your “own” Asian office or acting as your agent or partner Asia-Pacific region. Specific countries can be selected according to your preference.",
                   cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
@@ -76,9 +84,12 @@ const ServicesCards = (props: Props) => {
 
             <CarouselCard>
                 {{
-                  cardImageURL : "images/icon__sales__marketing.png",
-                  cardTitle : "Sales & Marketing",
-                  cardSummary : "",
+                  bgColorStyle : {
+                    backgroundColor : "#DB1F48" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Direct touch sales activities",
+                  cardSummary : "Together with our partners we Nordiska Solutions has developed an effective mechanism on how to identify the most important sales and marketing obstacles and means to tackle them. ",
                   cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
@@ -86,9 +97,66 @@ const ServicesCards = (props: Props) => {
 
             <CarouselCard>
                 {{
-                  cardImageURL : "images/icon__sales__marketing.png",
-                  cardTitle : "Sales & Marketing",
-                  cardSummary : "",
+                  bgColorStyle : {
+                    backgroundColor : "#F56476" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Inbound & outbound marketing",
+                  cardSummary : "By using inbound marketing, we help you generate qualified leads and increase awareness of your, thereby to increase sales. We create original content, such as blog posts to attract the right people and refine them further to influence purchase decision.",
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
+                }}
+
+            </CarouselCard>
+
+            <CarouselCard>
+                {{
+                  bgColorStyle : {
+                    backgroundColor : "#E43F6F" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Channel development & Channel management",
+                  cardSummary : "Our approach to sales transformations is comprehensive. We constantly follow how and to whom companies sell their products and services, the channels they use, and the back-office functions that support these efforts. ",
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
+                }}
+
+            </CarouselCard>
+
+            <CarouselCard>
+                {{
+                  bgColorStyle : {
+                    backgroundColor : "#47524F" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Sales outsourcing",
+                  cardSummary : "Looking to expand your sales team or let someone to handle the Sales for you? Sales outsourcing, an efficient and effective alternative?",
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
+                }}
+
+            </CarouselCard>
+
+
+            <CarouselCard>
+                {{
+                  bgColorStyle : {
+                    backgroundColor : "#548E9D" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Gateway to Indian market",
+                  cardSummary : "For any brand to target a particular market, it is very important for it to tap into its culture, network, and business pattern etc. And to facilitate this, it needs the help of local expertise who understands both sides and can accordingly help with progressive next steps for the same.",
+                  cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
+                }}
+
+            </CarouselCard>
+
+
+            <CarouselCard>
+                {{
+                  bgColorStyle : {
+                    backgroundColor : "#175873" //0E7C7B
+                  },
+                  cardImageURL : "images/icon__type2__discussion.png",
+                  cardTitle : "Building Information Modeling",
+                  cardSummary : "We, Nordiska Solutions Sdn. bhd. of Malaysia, pleased to announce our partnership agreement with IBS-Projects, a Finnish-Malaysian expertise, specialized in Building Information Modeling (BIM) solutions.",
                   cardLink : <NavLink to='/services#consultancy' className='btn-w'>see more</NavLink>
                 }}
 
