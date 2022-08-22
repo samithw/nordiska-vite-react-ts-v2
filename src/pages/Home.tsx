@@ -20,13 +20,13 @@ const Home = () => {
         <ContentSection>
           {{
               contentBgCSS : {
-                backgroundImage :'url("images/pexels-luis-quintero-27745561.png")'
+                backgroundImage :'url("/images/pexels-luis-quintero-27745561.png")'
               },
               contentTitle : "who we are",
               contentBody : (
               <p>Nordiska Solutions is Finnish-Malaysian joint company which has developed a cluster business concept with some leading environmental companies in Europe and Japan who are active in water, wastewater and solids waste management technologies and solutions.</p>
               ),
-              contentImageURL : "images/icon__who.png",
+              contentImageURL : "/images/icon__who.png",
               contentLink : <NavLink to='/about' className='btn-type1'>see more</NavLink>
           }}
         </ContentSection>

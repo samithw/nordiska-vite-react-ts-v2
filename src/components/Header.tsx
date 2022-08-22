@@ -11,7 +11,7 @@ const Header = (props: Props) => {
       <a href="#" className=' flex-shrink-0'>
         <img
           className="h-14 lg:h-16 aspect-auto align-middle"
-          src="images/ns__logo__trans1.png"
+          src="/images/ns__logo__trans1.png"
           alt="Nordiska Solutions Logo"
         />
       </a>

@@ -44,13 +44,13 @@ const Navbar = (props: Props) => {
           <a href="#"><span>products</span></a>
         </li> */}
         <li className="nav-item">
-        <NavLink to="/services"><span>services</span></NavLink>
+          <NavLink to="/services"><span>services</span></NavLink>
         </li>
         <li className="nav-item">
-        <NavLink to="/technology"><span>technology</span></NavLink>
+          <NavLink to="/technology"><span>technology</span></NavLink>
         </li>
         <li className="nav-item">
-          <a href="#"><span>contact</span></a>
+          <a href="/services/business-matchmaking"><span>contact</span></a>
         </li>
       </ul>
       <button onClick={handleCLick} className="md:hidden z-100" id="mobileNavBtn">
