@@ -16,7 +16,7 @@ const Home = () => {
           <h2 className=" text-2xl md:text-3xl lg:text-5xl text-white text-shadow">we are committed to providing optimal nordic <span className=" text-nsgreen">cleantech</span> solutions</h2>
           <h3 className=" text-sm md:text-lg text-white">to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></h3>
         </HeroSection>
-        <ServicesCards />
+        
         <ContentSection>
           {{
               contentBgCSS : {
@@ -30,6 +30,9 @@ const Home = () => {
               contentLink : <NavLink to='/about' className='btn-type1'>see more</NavLink>
           }}
         </ContentSection>
+
+        <ServicesCards />
+
         <Footer />
     </>
   )

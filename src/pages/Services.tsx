@@ -10,9 +10,9 @@ type Props = {}
 const Services = (props: Props) => {
   return (
     <>
-        <HeroSection imgurl="/images/services__banner.png">
+        {/* <HeroSection imgurl="/images/services__banner.png">
             <h1 className=" text-4xl md:text-5xl text-white">grow with <br /> <span className="text-nsgreen">nordiska solutions</span></h1>
-        </HeroSection>
+        </HeroSection> */}
 
         <Outlet />
 

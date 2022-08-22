@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import BusinessMatch from './components/Services/BusinessMatch'
+import ServicesIndex from './components/Services/ServicesIndex'
 import About from './pages/About'
 import Home from './pages/Home'
 import Services from './pages/Services'
@@ -36,6 +37,7 @@ function App() {
         <Route path='about' element = {<About />} />
         <Route path='technology' element = {<Technology />} />
         <Route path='services' element = {<Services />}>
+          <Route index element = {<ServicesIndex />} />
           <Route path='business-matchmaking' element = {<BusinessMatch />} />
         </Route>
       </Routes>
