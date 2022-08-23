@@ -16,7 +16,7 @@ type Props = {
     
 }
 
-const ContentLayout2Col = (props : Props) => {
+const ContentSection = (props : Props) => {
 
     return(
         <>
@@ -28,7 +28,7 @@ const ContentLayout2Col = (props : Props) => {
                         {props.children.contentBody}
                     </div>
                     <div className=" shrink-0">
-                        <img className=" w-52" src={props.children.contentImageURL} />   
+                        <img className=" w-52" src = {props.children.contentImageURL} />   
                     </div>
                 </div>
 
@@ -42,4 +42,4 @@ const ContentLayout2Col = (props : Props) => {
     
 
 
-export default ContentLayout2Col
+export default ContentSection

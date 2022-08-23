@@ -10,10 +10,10 @@ type Props = {}
 const BusinessMatch = (props: Props) => {
   return (
     <>
-      <HeroSection imgurl="/images/services__banner.png">
-              <h1 className=" text-4xl md:text-5xl text-white">
-                <span className="text-nsgreen">Business Matchmaking</span>
-              </h1>
+      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/mike-kononov-lFv0V3_2H6s-unsplash.jpg")' }}>
+          <h1 className=" text-4xl md:text-5xl text-white">
+            <span className="text-nsgreen">Business Matchmaking</span>
+          </h1>
       </HeroSection>
 
       
@@ -26,12 +26,12 @@ const BusinessMatch = (props: Props) => {
 
                 
 
-                {/* <p>We find potential business partners based on your criteria. We tailor according to your industry, technology, experience, products or services, relationship with or without third party.  Our partner search program includes a basic market overview and a comprehensive business profile on companies interested in a mutual partnership. In addition, we provide sufficient description of companies that are not interested to enter such relationship and their reasons for doing so.</p>
+                {/* 
 
                 <p>We also coordinate and optimize the B2B meetings according to the participants profiles while guaranteeing that they will only come meet with qualified profiles.</p> */}
 
               </>),
-              contentTitle : "competitive advantage to your product and services",
+              contentTitle : "Competitive advantage to your product and services",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>
@@ -44,6 +44,20 @@ const BusinessMatch = (props: Props) => {
 
               </>),
               contentTitle : "Our partner search program",
+              contentImageURL : "/images/icon__business__match.png",
+            }}
+          </ContentLayout2Col>
+
+          <ContentLayout2Col uniqueId='business-matchmaking'>
+            {{
+              contentBody : (<>
+   
+                <p>We find potential business partners based on your criteria. We tailor according to your industry, technology, experience, products or services, relationship with or without third party.  Our partner search program includes a basic market overview and a comprehensive business profile on companies interested in a mutual partnership. In addition, we provide sufficient description of companies that are not interested to enter such relationship and their reasons for doing so.</p>
+                
+                <p className='mt-10'><b>We also coordinate and optimize the B2B meetings according to the participants profiles while guaranteeing that they will only come meet with qualified profiles.</b></p>
+
+              </>),
+              contentTitle : "Relationship with or without third party",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>

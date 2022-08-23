@@ -11,7 +11,7 @@ const Technology = (props: Props) => {
 
   return (
     <>
-        <HeroSection imgurl='images/tech__banner.png'>
+        <HeroSection bgCSS={{ background : 'url("/images/tech__banner.png")' }}>
             <h1 className=" text-4xl md:text-5xl text-white">nordic <br /> <span className="text-nsgreen">high-end</span> <br /> cleantech</h1>
         </HeroSection>
         <PageQuote>
