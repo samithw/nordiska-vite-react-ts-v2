@@ -16,7 +16,7 @@ type Props = {
     
 }
 
-const ContentSection = (props : Props) => {
+const ContentLayout2Col = (props : Props) => {
 
     return(
         <>
@@ -42,4 +42,4 @@ const ContentSection = (props : Props) => {
     
 
 
-export default ContentSection
+export default ContentLayout2Col
