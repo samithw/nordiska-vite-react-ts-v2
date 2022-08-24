@@ -4,7 +4,7 @@
 
 @layer components{
     .icon-wrapper{
-        @apply flex flex-col justify-start shrink-0 w-[80%] md:w-[30%] min-w-[16rem] max-w-[20rem] bg-gray-800 bg-opacity-90 rounded-3xl min-h-[60vh] lg:min-h-[80vh] m-0 snap-start snap-always;
+        @apply flex flex-col justify-start shrink-0 w-[80%] md:w-[30%] min-w-[16rem] max-w-[20rem] bg-gray-800 bg-opacity-90 rounded-3xl m-0 snap-start snap-always;
     }
     .container {
         @apply sm:max-w-[100%] md:max-w-[100%] lg:max-w-[100%] xl:max-w-[1280px] /*2xl:max-w-[1536px]*/;
@@ -41,7 +41,7 @@
     }
 
     .sub-nav{
-        @apply my-3;
+        @apply my-3 text-sm lg:text-xl;
     }
 }
 
