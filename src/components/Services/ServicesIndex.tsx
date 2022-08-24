@@ -10,6 +10,7 @@ const ServicesIndex = (props: Props) => {
     <>
 
     <HeroSection bgCSS={{backgroundImage : 'url("/images/services__banner.png")'}}>
+
         {/* <h1 className=" text-4xl md:text-5xl text-white">grow with <br /> <span className="text-nsgreen">nordiska solutions</span></h1> */}
         <h1 className=" text-base md:text-2xl text-nsgreen">We constantly work with</h1>
         <h2 className=" text-2xl md:text-3xl lg:text-5xl text-white text-shadow"> our partners by providing<span className=" text-nsgreen"> scalable and customizable </span>solutions </h2>

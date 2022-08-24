@@ -1,20 +1,16 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
 import HeroSection from '../HeroSection'
-import ContentSection from '../ContentSection'
 import ContentLayout2Col from '../ContentLayout2Col'
 import CommonContainer from '../CommonContainer'
 import ContentSeparater from '../ContentSeparater'
 
-
 type Props = {}
 
-const BusinessMatch = (props: Props) => {
+const DirectMarket = (props: Props) => {
   return (
     <>
-      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/mike-kononov-lFv0V3_2H6s-unsplash.jpg")' }}>
+      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/jose-martin-ramirez-carrasco-45sjAjSjArQ-unsplash.jpg")' }}>
           <h1 className=" text-4xl md:text-5xl text-white">
-            <span className="text-white">Business <br />Matchmaking</span>
+            <span className="text-white">Direct Market <br />Entrance </span>
           </h1>
       </HeroSection>
 
@@ -65,8 +61,8 @@ const BusinessMatch = (props: Props) => {
         </CommonContainer>
 
 
-    </>
+    </> 
   )
 }
 
-export default BusinessMatch
+export default DirectMarket

@@ -13,6 +13,8 @@ const Navbar = (props: Props) => {
   const mainNavRef = useRef<HTMLUListElement>(null)
   const isHidden = menuStatus ? "" : "hidden"
 
+  
+
   const handleCLick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setMenuStatus(!menuStatus)
   }
@@ -45,12 +47,17 @@ const Navbar = (props: Props) => {
         </li> */}
         <li className="nav-item">
           <NavLink to="/services"><span>services</span></NavLink>
+          <ul className='md:absolute w-full p-0 m-0 right-0 hidden border-2 border-teal-600 bg-black bg-opacity-40 rounded-xl'>
+            <li className='nav-item sub-nav'><NavLink to="/services/business-matchmaking"><span>Business Matchmaking</span></NavLink></li>
+            <li className='nav-item sub-nav'><NavLink to="/services/direct-market-entrance"><span>Direct market entrance</span></NavLink></li>
+            <li className='nav-item sub-nav'><NavLink to="/services/direct-touch-sales-activities"><span>Direct touch sales activities</span></NavLink></li>
+          </ul>
         </li>
         <li className="nav-item">
           <NavLink to="/technology"><span>technology</span></NavLink>
         </li>
         <li className="nav-item">
-          <a href="/services/business-matchmaking"><span>contact</span></a>
+          <a href="/contact"><span>contact</span></a>
         </li>
       </ul>
       <button onClick={handleCLick} className="md:hidden z-100" id="mobileNavBtn">

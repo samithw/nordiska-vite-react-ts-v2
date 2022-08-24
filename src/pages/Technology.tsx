@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import ContentSection from '../components/ContentSection'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
@@ -32,7 +33,7 @@ const Technology = (props: Props) => {
                   <p className="mt-10 hidden">Whether you are seeking to find partners individually or on a corporate basis, we will provide you the perfect match according to your requirements.</p>
                 </> 
               ),
-              contentLink : <ButtonType1 toPath="/services">Inquire</ButtonType1>,
+              contentLink : <NavLink to='/' className='btn-type1'>Inquire</NavLink>,
               contentImageURL : "images/tech__main__icon.png"
             }}
         </ContentSection>
