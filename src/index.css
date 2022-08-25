@@ -41,7 +41,7 @@
     }
 
     .sub-nav{
-        @apply my-3 text-sm lg:text-xl;
+        @apply my-3 text-sm lg:text-sm;
     }
 }
 

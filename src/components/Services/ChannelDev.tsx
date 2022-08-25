@@ -7,7 +7,7 @@ type Props = {}
 
 const ChannelDev = (props: Props) => {
     return (<>
-        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/startae-team-7tXA8xwe4W4-unsplash.jpg")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)) , url("/images/alvaro-reyes-qWwpHwip31M-unsplash.jpg")' }}>
             <h1 className=" text-4xl md:text-5xl text-white">
               <span className="text-white">Channel development and <br />Channel management</span>
             </h1>

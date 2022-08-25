@@ -19,8 +19,6 @@ const ServicesIndex = (props: Props) => {
 
     <PageQuote>
         <p>Nordiska Solutions help innovative engineering companies, EPC contractors, End-users, Consulting companies extend their reach into Europe, and Asia Pacific by providing expert sales, business development and inbound/outbound marketing services. We constantly work with our partners by providing scalable and customizable solutions that support their profitable growth.</p>
-
-        <p className='mt-10'>Our core knowledge and capabilities under the three main service categories include:</p>
     </PageQuote>
 
     <ServicesCards />

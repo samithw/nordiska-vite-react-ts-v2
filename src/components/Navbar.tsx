@@ -62,7 +62,7 @@ const Navbar = (props: Props) => {
           <NavLink to="/technology"><span>technology</span></NavLink>
         </li>
         <li className="nav-item">
-          <a href="/contact"><span>contact</span></a>
+          <NavLink to="/contact"><span>contact</span></NavLink>
         </li>
       </ul>
       <button onClick={handleCLick} className="md:hidden z-100" id="mobileNavBtn">

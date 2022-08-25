@@ -12,6 +12,7 @@ import IndianMarket from './components/Services/IndianMarket'
 import SalesOutsourcing from './components/Services/SalesOutsourcing'
 import ServicesIndex from './components/Services/ServicesIndex'
 import About from './pages/About'
+import Contact from './pages/Contact'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Technology from './pages/Technology'
@@ -42,6 +43,7 @@ function App() {
       <Routes>
         <Route path='/' element= {<Home />}   />
         <Route path='about' element = {<About />} />
+        <Route path='contact' element = {<Contact />} />
         <Route path='technology' element = {<Technology />} />
         <Route path='services' element = {<Services />}>
           <Route index element = {<ServicesIndex />} />

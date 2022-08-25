@@ -37,7 +37,7 @@ const Footer = (props: Props) => {
                             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         />
                         </svg>
-                        <span className="text-lg">info@nordiskasoltions.com</span>
+                        <a href='mailto:info@nordiskasoltions.com' className="text-lg">info@nordiskasoltions.com</a>
                     </p>
                     <p className="flex items-center space-x-1">
                         <svg
@@ -54,10 +54,10 @@ const Footer = (props: Props) => {
                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                         />
                         </svg>
-                        <span className="text-lg">+60149545789</span>
+                        <span className="text-lg">+60 194490345</span>
                     </p>
                     </div>
-                    <div className="w-[50%]">
+                    {/* <div className="w-[50%]">
                         <h3 className="font-zen text-lg text-nsgreen my-2">newsletter</h3>
                         <input
                             type="email"
@@ -67,15 +67,15 @@ const Footer = (props: Props) => {
                         <a href="">
                             <button className="btn-w my-2 bg-cyan-800">subscribe</button>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
-                <div className="w-full">
+                {/* <div className="w-full">
                     <h3 className="font-zen text-lg text-nsgreen my-2">location</h3>
                     <img src="/images/location__dummy.png" />
-                </div>
+                </div> */}
             </div>
 
-            <div className="w-full md:w-[30%] flex flex-wrap gap-10 md:block text-white text-lg mt-14">
+            {/* <div className="w-full md:w-[30%] flex flex-wrap gap-10 md:block text-white text-lg mt-14">
                 
                 <div className='shrink-0'>
                     <h3 className="font-zen text-lg text-nsgreen my-2">quicklinks</h3>
@@ -101,7 +101,7 @@ const Footer = (props: Props) => {
 
                 
                 
-            </div>
+            </div> */}
         </div>
         <p className="text-white text-center py-2">
             Copyright © 2022 Nordiska Solutions
