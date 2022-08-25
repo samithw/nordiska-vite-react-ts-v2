@@ -12,7 +12,7 @@ type Props = {}
 const BusinessMatch = (props: Props) => {
   return (
     <>
-      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/mike-kononov-lFv0V3_2H6s-unsplash.jpg")' }}>
+      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/charlesdeluvio-AT5vuPoi8vc-unsplash.jpg")' }}>
           <h1 className=" text-4xl md:text-5xl text-white">
             <span className="text-white">Business <br />Matchmaking</span>
           </h1>
