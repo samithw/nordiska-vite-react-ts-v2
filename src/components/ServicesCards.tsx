@@ -42,25 +42,25 @@ const ServicesCards = (props: Props) => {
   return (
     
     <div className = "content-wrapper" style = {{ backgroundImage: 'url("/images/ourservicesbanner.png")'}}>
-        <div className="container relative flex justify-center">
+        <div className="container relative flex">
           
-          <h1 className="absolute top-10 text-4xl lg:text-5xl font-zen text-nsgreen">our services</h1>
+          <h1 className="absolute top-10 text-4xl lg:text-5xl font-zen text-white">our services</h1>
           
-          <button ref={previousCard} className=' text-white hidden md:block mr-2'>
+          {/* <button ref={previousCard} className=' text-white hidden md:block mr-2'>
             <svg xmlns="http://www.w3.org/2000/svg" className=" h-20 w-10" fill="none" viewBox="6 0 10 24" stroke="currentColor" strokeWidth="2">
               <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
-          </button>
+          </button> */}
 
-          <div ref={scrollWrapper} className="flex flex-row gap-3 mx-auto py-10 pt-20 w-auto overflow-x-scroll md:overflow-x-hidden snap-mandatory snap-x">
+          <div ref={scrollWrapper} className="flex flex-row md:flex-wrap gap-3 mx-auto py-10 pt-20 w-auto overflow-x-scroll md:overflow-auto snap-mandatory snap-x">
             
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#2D3648" //0E7C7B
+                    backgroundImage : 'url("/images/banner__business__matchmaking.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Business matchmaking",
+                  cardTitle : "Business Matchmaking",
 
                   cardSummary : "Are you looking for a sales partner or distributor for your products or services who can open the door to the Asia-Pacific region? Or, are you looking high-end technology and solutions provider/manufacture in cleantech sector from Nordic and Central Europe region?",
 
@@ -72,10 +72,10 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#004369" //0E7C7B
+                    backgroundImage : 'url("/images/banner__direct__market.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Direct market entrance",
+                  cardTitle : "Direct Market Entrance",
                   cardSummary : "We manage your business in Asia-Pacific during the initial stages of your market entrance, literally creating your “own” Asian office or acting as your agent or partner Asia-Pacific region. Specific countries can be selected according to your preference.",
                   cardLink : <NavLink to='/services/direct-market-entrance' className='btn-w'>see more</NavLink>
                 }}
@@ -85,10 +85,10 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#482D2D" //0E7C7B
+                    backgroundImage : 'url("/images/banner__direct__sales.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Direct touch sales activities",
+                  cardTitle : "Direct Touch Sales Activities",
                   cardSummary : "Together with our partners we Nordiska Solutions has developed an effective mechanism on how to identify the most important sales and marketing obstacles and means to tackle them. ",
                   cardLink : <NavLink to='/services/direct-touch-sales-activities' className='btn-w'>see more</NavLink>
                 }}
@@ -98,10 +98,10 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#F56476" //0E7C7B
+                    backgroundImage : 'url("/images/banner__inbound__outbound.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Inbound & outbound marketing",
+                  cardTitle : "Inbound & Outbound Marketing",
                   cardSummary : "By using inbound marketing, we help you generate qualified leads and increase awareness of your, thereby to increase sales. We create original content, such as blog posts to attract the right people and refine them further to influence purchase decision.",
                   cardLink : <NavLink to='/services/inbound-outbound-marketing' className='btn-w'>see more</NavLink>
                 }}
@@ -111,7 +111,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#E43F6F" //0E7C7B
+                    backgroundImage : 'url("/images/banner__channel__dev.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Channel development & Channel management",
@@ -124,7 +124,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#47524F" //0E7C7B
+                    backgroundImage : 'url("/images/banner__sales__outsourcing.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Sales outsourcing",
@@ -138,7 +138,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#2F4742" //0E7C7B
+                    backgroundImage : 'url("/images/banner__indian__market.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Gateway to Indian market",
@@ -152,7 +152,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundColor : "#175873" //0E7C7B
+                    backgroundImage : 'url("/images/banner__building__modeling.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Building Information Modeling",
@@ -200,11 +200,11 @@ const ServicesCards = (props: Props) => {
 
           </div>
 
-          <button ref={nextCard} className=' text-white hidden md:block ml-2'>
+          {/* <button ref={nextCard} className=' text-white hidden md:block ml-2'>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-20 w-10" fill="none" viewBox="7 0 10 24" stroke="currentColor" strokeWidth="2">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>      
-          </button>
+          </button> */}
 
         </div>
       </div>

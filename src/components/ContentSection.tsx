@@ -23,8 +23,8 @@ const ContentSection = (props : Props) => {
         <div id = {props.uniqueId} className="content-wrapper" style = { props.children.contentBgCSS } >
             <div className="container md:min-h-screen text-white font-zenMaru flex flex-col justify-center">
                 <h3 className="font-zen text-4xl lg:text-5xl">{props.children.contentTitle}</h3>
-                <div className="flex flex-col-reverse md:flex-row gap-20 my-10">
-                    <div className=" text-xl md:text-2xl md:leading-10">
+                <div className="flex flex-col-reverse md:flex-row gap-10 md:gap-20 my-10">
+                    <div className=" text-2xl md:text-2xl md:leading-10">
                         {props.children.contentBody}
                     </div>
                     <div className=" shrink-0">

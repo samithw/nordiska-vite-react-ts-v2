@@ -6,7 +6,7 @@ const Footer = (props: Props) => {
   return (
     <div className="content-wrapper bg-[#2D2F36]">
         <div className="container md:flex relative md:space-x-20">
-            <div className="w-full md:w-[70%]">
+            <div className="w-full md:w-[70%] py-10 md:p-0">
                 <a href="#">
                     <img
                     className="h-10 aspect-auto align-middle"
@@ -103,7 +103,7 @@ const Footer = (props: Props) => {
                 
             </div> */}
         </div>
-        <p className="text-white text-center py-2">
+        <p className="text-white text-center py-5 border-t border-gray-700">
             Copyright © 2022 Nordiska Solutions
         </p>
     </div>
