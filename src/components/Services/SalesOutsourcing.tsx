@@ -19,7 +19,7 @@ const SalesOutsourcing = (props: Props) => {
         <ContentLayout2Col uniqueId='business-matchmaking'>
           {{
             contentBody : (<>
-            <p>OLooking to expand your sales team or let someone to handle the Sales for you? Sales outsourcing, an efficient and effective alternative 
+            <p>Looking to expand your sales team or let someone to handle the Sales for you? Sales outsourcing, an efficient and effective alternative 
             </p>
 
             <p className='mt-10'>

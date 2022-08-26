@@ -20,7 +20,7 @@
     }
 
     .btn-type1{
-        @apply  w-fit text-sm font-zen md:text-base bg-transparent hover:bg-teal-600 text-white hover:text-white py-2 px-2 md:px-5 border hover:border-transparent rounded-xl leading-7;
+        @apply  w-fit text-sm font-zen md:text-base bg-transparent hover:bg-teal-600 text-white hover:text-white py-2 px-5 border hover:border-transparent rounded-xl leading-7;
     }
 
     .nav-item a{

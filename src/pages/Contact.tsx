@@ -133,7 +133,7 @@ const Contact = (props: Props) => {
                         Mr Fritz Kropp <br />
                         PV Consulting, <br />
                         D-79271 St. Peter/Black forest, <br />
-                        France
+                        Germany
                       </p>
                   </>
                   

@@ -29,7 +29,7 @@ const ContactCard = (props: Props) => {
           
           {
             props.children.contactEmail && (
-            <p><a href = {mailToLink} > {props.children.contactEmail} </a></p>
+            <p><a className=' underline decoration-white' href = {mailToLink}> {props.children.contactEmail} </a></p>
             )
             
           }

@@ -7,7 +7,7 @@ const HeroSection = (props: Props) => {
   return (
     <>
       <div className="content-wrapper" style= {props.bgCSS} >
-        <div className="container md:h-screen min-h-[70vh] flex items-end pb-[5vw]">
+        <div className="container md:h-screen min-h-[80vh] flex items-end pb-[5vw]">
           <div className=' items-end font-zen break-words lg:w-[50vw]'>
               {props.children}
            </div>
