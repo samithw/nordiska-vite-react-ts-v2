@@ -7,7 +7,7 @@ type Props = {}
 
 const InboundOut = (props: Props) => {
   return (<>
-    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg")' }}>
+    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__inbound__outbound.jpg")' }}>
         <h1 className=" text-4xl md:text-5xl text-white">
           <span className="text-white">Inbound and outbound <br />marketing</span>
         </h1>
