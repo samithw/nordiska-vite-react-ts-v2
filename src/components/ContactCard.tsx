@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactDetail from './ContactDetail'
 
 type Props = {
     children : {
@@ -17,19 +18,34 @@ const ContactCard = (props: Props) => {
   return (<>
     <div className='text-xl font-zenMaru'>
         <div className=' font-zen text-nsgreen text-2xl'> {props.children.contactHeader} </div>
-        <div> {props.children.contactAddress} </div>
+        <ContactDetail>
+                {{
+                    contactInfo : <div className='p-2'>{props.children.contactAddress}</div>
+                }}
+              </ContactDetail>  
         <div>
             
             
           {
             props.children.contactNumber && (
-            <p> {props.children.contactNumber} </p>
+              <ContactDetail>
+                {{
+                    iconType : 'phone',
+                    contactInfo : <span>{props.children.contactNumber}</span>
+                }}
+              </ContactDetail>
+
             )
           }
           
           {
             props.children.contactEmail && (
-            <p><a className=' underline decoration-white' href = {mailToLink}> {props.children.contactEmail} </a></p>
+              <ContactDetail>
+                {{
+                    iconType : 'email',
+                    contactInfo : <a className=' underline' href = {mailToLink}> {props.children.contactEmail} </a>
+                }}
+              </ContactDetail>
             )
             
           }
