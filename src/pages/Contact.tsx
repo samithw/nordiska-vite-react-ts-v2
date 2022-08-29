@@ -36,8 +36,8 @@ const Contact = (props: Props) => {
                         Malaysia
                       </p>
                   </>,
-                  contactNumber : "+60 194490345",
-                  contactEmail : "info@nordiskasolution.com"
+                  contactNumber : "+60194490345",
+                  contactEmail : "info@nordiskasolutions.com"
                 }}
               </ContactCard>
 
@@ -52,7 +52,7 @@ const Contact = (props: Props) => {
                         Finland
                       </p>
                   </>,
-                  contactEmail : "info@nordiskasolution.com"
+                  contactEmail : "info@nordiskasolutions.com"
                 }}
               </ContactCard>
           </div>
@@ -65,7 +65,7 @@ const Contact = (props: Props) => {
 
           
           
-          <ContentSeparater>
+          <ContentSeparater bgCSS = {{ backgroundColor : "#081840" }}>
               {{
                 imageURLs : [
                   "/images/icon__type2__discussion.png",

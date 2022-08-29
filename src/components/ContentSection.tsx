@@ -29,8 +29,13 @@ const ContentSection = (props : Props) => {
                         {props.children.contentBody}
                     </div>
                     <div className="flex md:block shrink-0">
-                        <img className=" w-44 md:w-56" src = {props.children.contentImageURL} />   
-                        <img className=" w-44 md:w-56" src = {props.children.contentImageURL2} />
+                        <img className=" w-44 md:w-56" src = {props.children.contentImageURL} /> 
+                        {
+                            props.children.contentImageURL2 ?
+                                <img className=" w-44 md:w-56" src = {props.children.contentImageURL2} />
+                            : <></>
+                        }  
+                        
                     </div>
                 </div>
 

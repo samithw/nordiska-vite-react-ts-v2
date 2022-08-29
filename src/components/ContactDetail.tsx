@@ -12,6 +12,7 @@ type Props = {
 const ContactDetail = (props: Props) => {
 
     let iconSVG : React.ReactNode = <></>
+    let flexType : string = props.children.iconType ? "inline-flex" : "flex";
 
     switch(props.children.iconType){
         case 'phone' : {
@@ -27,20 +28,20 @@ const ContactDetail = (props: Props) => {
             break;
         }
     }
+    
 
   return (
-    <div className="inline-flex justify-between items-center my-1 py-1 px-1 pr-4 text-sm text-gray-700 rounded-3xl border border-teal-600 dark:text-white" aria-label="Component requires Tailwind v3.0">
+    
+
+    <span className = {flexType + " items-center my-1 py-1 px-1 pr-4 text-sm text-gray-700 rounded-3xl border border-teal-600 dark:text-white"}>
         {
-        
-        
-        
         props.children.iconType && (
             <span className="text-xs bg-teal-800 rounded-3xl text-white px-3 py-1.5 mr-3">
                 {iconSVG}
             </span> )
         }
-        <div className="text-lg">{props.children.contactInfo}</div>
-    </div>
+        <span className="text-lg">{props.children.contactInfo}</span>
+    </span>
   )
 }
 

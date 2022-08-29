@@ -24,10 +24,10 @@
     }
 
     .nav-item a{
-        @apply px-3 py-1 inline-block w-full;
+        @apply px-3 text-2xl md:text-base py-1 inline-block w-full;
     }
 
-    .nav-item a:not(.active) span{
+    .nav-item > a:not(.active) > span{
         @apply border-b-4 pb-1 border-transparent hover:border-nsgreen;
         @apply h-32
     }
@@ -37,11 +37,15 @@
     }
 
     .nav-item:hover ul{
-        @apply block
+        @apply block;
     }
 
-    .sub-nav{
-        @apply my-3 text-sm lg:text-sm;
+    .sub-nav a{
+        @apply my-1 text-base lg:text-base;
+    }
+
+    .sub-nav a:not(.active) {
+        @apply hover:underline hover:decoration-nsgreen hover:decoration-2;
     }
 }
 
