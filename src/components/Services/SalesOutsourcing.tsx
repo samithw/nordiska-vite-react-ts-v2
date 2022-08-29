@@ -2,6 +2,7 @@ import HeroSection from '../HeroSection'
 import ContentLayout2Col from '../ContentLayout2Col'
 import CommonContainer from '../CommonContainer'
 import ContentSeparater from '../ContentSeparater'
+import ContactDetail from '../ContactDetail'
 
 type Props = {}
 
@@ -49,7 +50,13 @@ const SalesOutsourcing = (props: Props) => {
             </p>
 
             <p className='mt-10'>
-            As of now, we have helped several European and Asian companies to materialized considerable business in Asia-Pacific region. We highly recommend you to Start your sales activities with us now. Our services are for your disposal. For more information, please contact info@nordiskasolutions.com 
+            As of now, we have helped several European and Asian companies to materialized considerable business in Asia-Pacific region. We highly recommend you to Start your sales activities with us now. Our services are for your disposal. For more information, please contact <br /><ContactDetail>
+                        {{
+                            iconType : 'email',
+                            contactInfo : <a className=' underline' href='mailto:info@nordiskasoltions.com'>info@nordiskasoltions.com</a>
+                        }}
+                    </ContactDetail>
+                    
             </p>
 
             </>),

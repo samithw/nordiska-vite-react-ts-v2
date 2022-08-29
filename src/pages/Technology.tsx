@@ -17,7 +17,7 @@ const Technology = (props: Props) => {
 
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url("/images/banner__technology__3.jpg")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)) , url("/images/banner__technology__6.jpg")' }}>
             <h1 className=" text-4xl md:text-5xl text-white">nordic <br /> <span className="text-nsgreen">high-end</span> cleantech</h1>
             
         </HeroSection>
@@ -30,7 +30,9 @@ const Technology = (props: Props) => {
         <ContentSection>
             {{
               contentBgCSS : {
-                backgroundColor : "#282828",
+                //backgroundColor : '#1E293B',
+                backgroundImage : 'linear-gradient(rgba(12, 31, 46, 0.9), rgba(12, 31, 46, 0.9)) , url("/images/banner__technology__5.jpg")',
+                
               },
               contentTitle : "Technology",
               contentBody : (
@@ -40,7 +42,8 @@ const Technology = (props: Props) => {
                   <p className='mt-10'>We constantly work together with our customers and technology providers in order to guarantee the very highest level of customer satisfaction and sustainability. The success of our clients depends on the skills and commitment of our people and we constantly pursue the innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
                 </> 
               ),
-              contentImageURL : "/images/icon__techology__3.png"
+              contentImageURL : "/images/icon__techology__4.png",
+              contentImageURL2 : "/images/icon__techology__6.png"
             }}
         </ContentSection>
 
@@ -86,7 +89,7 @@ const Technology = (props: Props) => {
 
 
         <CommonContainer contentBgCSS = {{ backgroundColor : '#091540' }}>
-          <h1 className=' font-zen blue text-4xl'>What we offer</h1>
+          <h1 className=' font-zen text-4xl mb-10'>Technology solutions we offer</h1>
         <ContentLayout2Col>
               {{
                 contentBody : <>
@@ -95,77 +98,77 @@ const Technology = (props: Props) => {
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Pre-treatment equipment such as screens (fine, coarse, bend, rotary, drum etc.)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Disc filters, Drum filters"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "DAF-units"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "CPI units for separation of free oil from effluent water"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Clarifier mechanisms (Chain & Flight systems and components)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Non-Metallic Chains with 6-inch pitch, 160mm pitch etc."
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Lamella clarifiers for SWRO"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Sludge treatment equipment (Belt filter Presses, Muti-Disc Dewatering)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Chemical dosing systems"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Light weight panel cover for clarifiers"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
-                    itemIcon : "/images/icon__type2__discussion.png",
+                    itemIcon : "/images/icon__techology__2.png",
                     itemDescription : "Sludge disposal systems such as Cake hoppers, Conveyor systems"
                   }}
                 </ListInfoCard>
@@ -187,14 +190,14 @@ const Technology = (props: Props) => {
                 <div className="flex flex-wrap gap-4">
                   <ListInfoCard>
                     {{
-                      itemIcon : "/images/icon__type2__discussion.png",
+                      itemIcon : "/images/icon__techology__2.png",
                       itemDescription : "From manual sorting line to fully automated plant"
                     }}
                   </ListInfoCard>
 
                   <ListInfoCard>
                     {{
-                      itemIcon : "/images/icon__type2__discussion.png",
+                      itemIcon : "/images/icon__techology__2.png",
                       itemDescription : "Recycling and sorting to composting"
                     }}
                   </ListInfoCard>

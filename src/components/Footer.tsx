@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
                     <ContactDetail>
                         {{
                             iconType : 'phone',
-                            contactInfo : <a className=' underline' href='mailto:info@nordiskasoltions.com'>+60194490345</a>
+                            contactInfo : <span>+60194490345</span>
                         }}
                     </ContactDetail>
 

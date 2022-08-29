@@ -8,6 +8,7 @@ type Props = {
         contentBody : React.ReactNode,
         contentLink? : React.ReactNode,
         contentImageURL : string,
+        contentImageURL2? : string,
         contentBgCSS : React.CSSProperties
         
     },
@@ -27,8 +28,9 @@ const ContentSection = (props : Props) => {
                     <div className=" text-xl md:text-2xl md:leading-10">
                         {props.children.contentBody}
                     </div>
-                    <div className=" shrink-0">
+                    <div className="flex md:block shrink-0">
                         <img className=" w-44 md:w-56" src = {props.children.contentImageURL} />   
+                        <img className=" w-44 md:w-56" src = {props.children.contentImageURL2} />
                     </div>
                 </div>
 
