@@ -11,7 +11,7 @@ type Props = {}
 const Contact = (props: Props) => {
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)) , url("/images/contact__banner.png")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)) , url("/images/banner__contact.jpg")' }}>
             <h1 className=" text-base md:text-2xl text-nsgreen">You are on the</h1>
             <h2 className=" text-2xl md:text-3xl lg:text-5xl text-white text-shadow">Right path to <br /><span className=" text-nsgreen"> Greatness </span></h2>
             <h3 className=" text-sm md:text-lg text-white">We are here to help you get there</h3>

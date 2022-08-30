@@ -7,7 +7,7 @@ type Props = {}
 const About = (props: Props) => {
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'url("/images/about__banner.png")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'url("/images/banner__about__us.jpg")' }}>
           <h1 className=" text-4xl md:text-5xl text-white">the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</h1>
         </HeroSection>
         <PageQuote>

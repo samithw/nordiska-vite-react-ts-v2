@@ -54,12 +54,12 @@ const IndianMarket = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater bgCSS={{ backgroundColor : "" }}>
+        <ContentSeparater bgCSS={{ backgroundColor : "#7D5611" }}>
           {{
             imageURLs : [
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
+              "/images/temple-icon.png",
+              "/images/taj-mahal-icon.png",
+              "/images/coin-rupee-icon.png"
               ]
           }}
         </ContentSeparater>

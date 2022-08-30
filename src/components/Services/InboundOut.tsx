@@ -31,15 +31,15 @@ const InboundOut = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater>
-          {{
-            imageURLs : [
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              ]
-          }}
-        </ContentSeparater>
+        <ContentSeparater bgCSS={{ backgroundColor : "#1F644A" }}>
+              {{
+                imageURLs : [
+                  "/images/icon__technology.png",
+                  "/images/icon2__consultancy.png",
+                  "/images/icon__business__match.png",
+                  ]
+              }}
+            </ContentSeparater>
 
       </CommonContainer>
   </>)

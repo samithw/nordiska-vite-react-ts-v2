@@ -41,7 +41,7 @@ const ServicesCards = (props: Props) => {
 
   return (
     
-    <div className = "content-wrapper" style = {{ backgroundImage: 'url("/images/ourservicesbanner.png")'}}>
+    <div className = "content-wrapper" style = {{ backgroundImage: 'url("/images/banner__services__1.jpg")'}}>
         <div className="container relative flex">
           
           <h1 className="absolute top-10 text-4xl lg:text-5xl font-zen text-white">our services</h1>
@@ -85,7 +85,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundImage : 'url("/images/banner__direct__sales.jpg")'
+                    backgroundImage : 'url("/images/banner__direct__touch__sales.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Direct Touch Sales Activities",
@@ -111,7 +111,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundImage : 'url("/images/banner__channel__dev.jpg")'
+                    backgroundImage : 'url("/images/banner__channel__development.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "Channel development & Channel management",

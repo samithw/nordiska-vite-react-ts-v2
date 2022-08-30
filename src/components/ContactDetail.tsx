@@ -33,14 +33,14 @@ const ContactDetail = (props: Props) => {
   return (
     
 
-    <span className = {flexType + " items-center my-1 py-1 px-1 pr-4 text-sm text-gray-700 rounded-3xl border border-teal-600 dark:text-white"}>
+    <span className = {flexType + " items-center my-1 py-1 px-1 pr-4 rounded-3xl border border-teal-600"}>
         {
         props.children.iconType && (
-            <span className="text-xs bg-teal-800 rounded-3xl text-white px-3 py-1.5 mr-3">
+            <span className="text-xs bg-teal-800 rounded-3xl px-3 py-1.5 mr-3">
                 {iconSVG}
             </span> )
         }
-        <span className="text-lg">{props.children.contactInfo}</span>
+        <span className="text-lg text-white">{props.children.contactInfo}</span>
     </span>
   )
 }

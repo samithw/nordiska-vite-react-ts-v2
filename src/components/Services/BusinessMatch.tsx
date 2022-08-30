@@ -12,7 +12,7 @@ type Props = {}
 const BusinessMatch = (props: Props) => {
   return (
     <>
-      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("/images/banner__business__matchmaking__2.jpg")' }}>
+      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("/images/banner__business__matchmaking.jpg")' }}>
           <h1 className=" text-4xl md:text-5xl text-white">
             <span className="text-white">Business <br />Matchmaking</span>
           </h1>
@@ -38,15 +38,15 @@ const BusinessMatch = (props: Props) => {
             }}
           </ContentLayout2Col>
 
-          <ContentSeparater>
-            {{
-              imageURLs : [
-                "/images/icon__type2__discussion.png",
-                "/images/icon__type2__discussion.png",
-                "/images/icon__type2__discussion.png",
-                ]
-            }}
-          </ContentSeparater>
+          <ContentSeparater bgCSS={{ backgroundColor : "#63a39a" }}>
+              {{
+                imageURLs : [
+                  "/images/icon__business__4.png",
+                  "/images/icon__business__2.png",
+                  "/images/icon__business__1.png",
+                  ]
+              }}
+            </ContentSeparater>
 
           <ContentLayout2Col uniqueId='business-matchmaking'>
             {{

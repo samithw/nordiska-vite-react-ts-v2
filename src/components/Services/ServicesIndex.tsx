@@ -9,7 +9,7 @@ const ServicesIndex = (props: Props) => {
   return (
     <>
 
-    <HeroSection bgCSS={{backgroundImage : 'url("/images/services__banner.png")'}}>
+    <HeroSection bgCSS={{backgroundImage : 'url("/images/banner__services__2.jpg")'}}>
 
         {/* <h1 className=" text-4xl md:text-5xl text-white">grow with <br /> <span className="text-nsgreen">nordiska solutions</span></h1> */}
         <h1 className=" text-base md:text-2xl text-nsgreen">We constantly work with</h1>

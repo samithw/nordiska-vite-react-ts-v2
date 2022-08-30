@@ -17,7 +17,7 @@ const Technology = (props: Props) => {
 
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)) , url("/images/banner__technology__6.jpg")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)) , url("/images/banner__technology__2.jpg")' }}>
             <h1 className=" text-4xl md:text-5xl text-white">nordic <br /> <span className="text-nsgreen">high-end</span> cleantech</h1>
             
         </HeroSection>

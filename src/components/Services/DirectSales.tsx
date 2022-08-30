@@ -7,7 +7,7 @@ type Props = {}
 const DirectSales = (props: Props) => {
   return (
     <>
-    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__direct__sales.jpg")' }}>
+    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__direct__touch__sales.jpg")' }}>
         <h1 className=" text-4xl md:text-5xl text-white">
           <span className="text-white">Direct touch sales<br />activities </span>
         </h1>
@@ -26,15 +26,15 @@ const DirectSales = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater>
-          {{
-            imageURLs : [
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              ]
-          }}
-        </ContentSeparater>
+        <ContentSeparater bgCSS={{ backgroundColor : "#d3a163" }}>
+              {{
+                imageURLs : [
+                  "/images/icon__business__13.png",
+                  "/images/icon__business__14.png",
+                  "/images/icon__business__19.png",
+                  ]
+              }}
+            </ContentSeparater>
 
       </CommonContainer>
 

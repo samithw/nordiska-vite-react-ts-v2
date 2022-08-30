@@ -4,7 +4,7 @@ type Props = {
   children : {
     imageURLs : string[]
   },
-  bgCSS : React.CSSProperties
+  bgCSS? : React.CSSProperties
 }
 
 const ContentSeparater = (props: Props) => {

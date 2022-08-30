@@ -31,12 +31,12 @@ const BuildingInfoModeling = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater>
+        <ContentSeparater bgCSS={{ backgroundColor : "#3F5157" }}>
           {{
             imageURLs : [
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
-              "/images/icon__type2__discussion.png",
+              "/images/icons8-auto-cad-64.png",
+              "/images/icons8-cad-64.png",
+              "/images/icons8-cad-64__2.png"
               ]
           }}
         </ContentSeparater>
