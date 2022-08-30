@@ -68,9 +68,9 @@ const Contact = (props: Props) => {
           <ContentSeparater bgCSS = {{ backgroundColor : "#081840" }}>
               {{
                 imageURLs : [
-                  "/images/icon__type2__discussion.png",
-                  "/images/icon__type2__discussion.png",
-                  "/images/icon__type2__discussion.png",
+                  "/images/icon__contact__call.png",
+                  "/images/icon__contact__email.png",
+                  "/images/icon__contact__chat.png",
                   ]
               }}
             </ContentSeparater>

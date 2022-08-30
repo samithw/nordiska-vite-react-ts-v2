@@ -14,7 +14,7 @@ type Props = {
 const CarouselCard = (props: Props) => {
   return (
     <div className="icon-wrapper">
-      <div className=' w-full rounded-t-3xl bg-no-repeat bg-cover h-48' style = {props.children.bgColorStyle}>
+      <div className=' w-full rounded-t-3xl bg-no-repeat bg-center bg-cover h-48' style = {props.children.bgColorStyle}>
         {/* <img className=" w-1/4" src={props.children.cardImageURL} /> */}
         
       </div>
