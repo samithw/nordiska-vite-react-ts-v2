@@ -28,7 +28,7 @@ const Footer = (props: Props) => {
                     <ContactDetail>
                         {{
                             iconType : 'email',
-                            contactInfo : <a className=' underline' href='mailto:info@nordiskasoltions.com'>info@nordiskasoltions.com</a>
+                            contactInfo : <a className=' underline' href='mailto:info@nordiskasolutions.com'>info@nordiskasolutions.com</a>
                         }}
                     </ContactDetail>
                     
