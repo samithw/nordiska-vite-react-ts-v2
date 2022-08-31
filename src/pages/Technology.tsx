@@ -42,8 +42,8 @@ const Technology = (props: Props) => {
                   <p className='mt-10'>We constantly work together with our customers and technology providers in order to guarantee the very highest level of customer satisfaction and sustainability. The success of our clients depends on the skills and commitment of our people and we constantly pursue the innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
                 </> 
               ),
-              contentImageURL : "/images/icon__technology__4.png",
-              contentImageURL2 : "/images/icon__technology__6.png"
+              contentImageURL : "/images/icon__technology__6.png"
+              
             }}
         </ContentSection>
 
@@ -99,42 +99,21 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Pre-treatment equipment such as screens (fine, coarse, bend, rotary, drum etc.)"
+                    itemDescription : "Pre-treatment equipment such as screens(fine, coarse, bend, rotary, drum etc.), disc and drum filters, compactors, slide gate etc."
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Disc filters, Drum filters"
+                    itemDescription : "DAF units, oil/water separators, lamella separators, PCI/CPI, PCS/CPS separators and clariflocculators"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "DAF-units"
-                  }}
-                </ListInfoCard>
-
-                <ListInfoCard>
-                  {{
-                    itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "CPI units for separation of free oil from effluent water"
-                  }}
-                </ListInfoCard>
-
-                <ListInfoCard>
-                  {{
-                    itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Clarifier mechanisms (Chain & Flight systems and components)"
-                  }}
-                </ListInfoCard>
-
-                <ListInfoCard>
-                  {{
-                    itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Non-Metallic Chains with 6-inch pitch, 160mm pitch etc."
+                    itemDescription : "Clarifier mechanisms ( non-metallic Chain & Flight sludge and scum collectors, bridge scrapers etc.)"
                   }}
                 </ListInfoCard>
 
@@ -148,7 +127,7 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Sludge treatment equipment (Belt filter Presses, Muti-Disc Dewatering)"
+                    itemDescription : "Sludge thickening and dewatering (BFP, GBT, Multi-disc screw presses, screw presses etc.)"
                   }}
                 </ListInfoCard>
 
@@ -162,19 +141,16 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Light weight panel cover for clarifiers"
+                    itemDescription : "Sludge disposal configurations (Cake hoppers, silo, conveyors etc.)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Sludge disposal systems such as Cake hoppers, Conveyor systems"
+                    itemDescription : "Self-cleaning filters, cumulative settling filters, customized automatic filters etc."
                   }}
                 </ListInfoCard>
-
-              
-
                 </div>
 
                 </>,

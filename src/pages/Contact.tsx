@@ -80,6 +80,37 @@ const Contact = (props: Props) => {
           </h1>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
+
+          <ContactCard>
+                {{
+                  contactHeader : "France",
+                  contactAddress : <>
+                      <p>
+                        <b>HYDRODYN SARL.</b> <br />
+                        2 Av des Prés - BL104,<br />
+                        78180 Montigny le Bretonneux,<br />
+                        France
+                      </p>
+                  </>
+                  
+                }}
+              </ContactCard>
+
+              <ContactCard>
+                {{
+                  contactHeader : "Germany",
+                  contactAddress : <>
+                      <p>
+                        Mr Fritz Kropp <br />
+                        PV Consulting, <br />
+                        D-79271 St. Peter/Black forest, <br />
+                        Germany
+                      </p>
+                  </>
+                  
+                }}
+              </ContactCard>
+
             <ContactCard>
                 {{
                   contactHeader : "India",
@@ -110,35 +141,9 @@ const Contact = (props: Props) => {
                 }}
               </ContactCard>
 
-              <ContactCard>
-                {{
-                  contactHeader : "France",
-                  contactAddress : <>
-                      <p>
-                        <b>HYDRODYN SARL.</b> <br />
-                        2 Av des Prés - BL104,<br />
-                        78180 Montigny le Bretonneux,<br />
-                        France
-                      </p>
-                  </>
-                  
-                }}
-              </ContactCard>
+              
 
-              <ContactCard>
-                {{
-                  contactHeader : "Germany",
-                  contactAddress : <>
-                      <p>
-                        Mr Fritz Kropp <br />
-                        PV Consulting, <br />
-                        D-79271 St. Peter/Black forest, <br />
-                        Germany
-                      </p>
-                  </>
-                  
-                }}
-              </ContactCard>
+              
 
               <ContactCard>
                 {{
