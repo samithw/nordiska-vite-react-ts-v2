@@ -53,7 +53,7 @@ const SalesOutsourcing = (props: Props) => {
             As of now, we have helped several European and Asian companies to materialized considerable business in Asia-Pacific region. We highly recommend you to Start your sales activities with us now. Our services are for your disposal. For more information, please contact <br /><ContactDetail>
                         {{
                             iconType : 'email',
-                            contactInfo : <a className=' underline' href='mailto:info@nordiskasoltions.com'>info@nordiskasoltions.com</a>
+                            contactInfo : <a className=' underline' href='mailto:info@nordiskasolutions.com'>info@nordiskasolutions.com</a>
                         }}
                     </ContactDetail>
                     
