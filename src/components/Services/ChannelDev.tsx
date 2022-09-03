@@ -8,9 +8,10 @@ type Props = {}
 const ChannelDev = (props: Props) => {
     return (<>
         <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url("/images/banner__channel__development.jpg")' }}>
-            <h1 className=" text-4xl md:text-5xl text-white">
-              <span className="text-white">Channel development and <br />Channel management</span>
-            </h1>
+        {{
+          pageTag : <>services</>,
+          bigTextHeading : <>Channel development and <br />Channel management</>
+        }}  
         </HeroSection>
     
         

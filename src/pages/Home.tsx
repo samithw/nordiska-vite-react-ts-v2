@@ -12,9 +12,13 @@ const Home = () => {
   return (
     <>
         <HeroSection bgCSS={{ backgroundImage : 'url("images/banner__nordiskasolutions__home.jpg")'}}>
-          <h1 className=" text-base md:text-2xl text-nsgreen">@nordiskasolutions</h1>
-          <h2 className=" text-3xl md:text-3xl lg:text-5xl text-white text-shadow">we are committed to providing optimal nordic <span className=" text-nsgreen">cleantech</span> solutions</h2>
-          <h3 className=" text-base md:text-lg text-white hidden md:block">to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></h3>
+
+          {{
+            pageTag : "@nordiskasolutions",
+            bigTextHeading : <>we are committed to providing optimal nordic <span className=" text-nsgreen">cleantech</span></>,
+            smallText : <>to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends</span></>
+          }}
+
         </HeroSection>
         
         <ServicesCards />

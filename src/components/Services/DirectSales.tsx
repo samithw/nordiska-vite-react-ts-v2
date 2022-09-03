@@ -8,9 +8,10 @@ const DirectSales = (props: Props) => {
   return (
     <>
     <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__direct__touch__sales.jpg")' }}>
-        <h1 className=" text-4xl md:text-5xl text-white">
-          <span className="text-white">Direct touch sales<br />activities </span>
-        </h1>
+      {{
+        pageTag : <>services</>,
+        bigTextHeading : <>Direct touch sales<br />activities</>
+      }}
     </HeroSection>
 
     

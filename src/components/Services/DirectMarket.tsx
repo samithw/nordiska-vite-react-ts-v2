@@ -9,9 +9,10 @@ const DirectMarket = (props: Props) => {
   return (
     <>
       <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/images/banner__direct__market.jpg")' }}>
-          <h1 className=" text-4xl md:text-5xl text-white">
-            <span className="text-white">Direct Market <br />Entrance </span>
-          </h1>
+        {{
+          pageTag : <>services</>,
+          bigTextHeading : <>Direct Market <br />Entrance </>
+        }}
       </HeroSection>
 
       

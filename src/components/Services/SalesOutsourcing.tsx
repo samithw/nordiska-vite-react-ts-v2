@@ -9,9 +9,10 @@ type Props = {}
 const SalesOutsourcing = (props: Props) => {
   return (<>
     <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__sales__outsourcing.jpg")' }}>
-        <h1 className=" text-4xl md:text-5xl text-white">
-          <span className="text-white">Sales outsourcing</span>
-        </h1>
+      {{
+        pageTag : <>services</>,
+        bigTextHeading : <>sales <br />outsourcing</>
+      }}
     </HeroSection>
 
     

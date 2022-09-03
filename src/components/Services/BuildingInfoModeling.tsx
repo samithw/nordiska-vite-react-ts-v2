@@ -8,9 +8,10 @@ type Props = {}
 const BuildingInfoModeling = (props: Props) => {
   return (<>
     <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__building__modeling.jpg")' }}>
-        <h1 className=" text-4xl md:text-5xl text-white">
-          <span className="text-white">BIM – Building Information Modeling (CAD 2 Revit)</span>
-        </h1>
+        {{
+          pageTag : <>services</>,
+          bigTextHeading : <>BIM – building information modeling (CAD 2 Revit)</>
+        }}
     </HeroSection>
 
     

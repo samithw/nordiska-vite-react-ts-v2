@@ -13,9 +13,10 @@ const BusinessMatch = (props: Props) => {
   return (
     <>
       <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("/images/banner__business__matchmaking.jpg")' }}>
-          <h1 className=" text-4xl md:text-5xl text-white">
-            <span className="text-white">Business <br />Matchmaking</span>
-          </h1>
+          {{
+          pageTag : <>services</>,
+          bigTextHeading : <>Business <br />Matchmaking</>
+        }}
       </HeroSection>
 
       
