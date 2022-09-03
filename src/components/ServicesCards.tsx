@@ -41,10 +41,10 @@ const ServicesCards = (props: Props) => {
 
   return (
     
-    <div className = "content-wrapper" style = {{ backgroundImage: 'url("/images/banner__services__1.jpg")'}}>
-        <div className="container relative flex">
+    <div className = "content-wrapper box-content bg-gray-600 border-t-8 border-b-2 border-[#10FEB7] rounded-[3rem] -translate-y-10" style = {{ backgroundImage: 'url("/images/banner__services__1.jpg")'}}>
+        <div className="container relative flex pt-32 pb-10">
           
-          <h1 className="absolute top-10 text-4xl lg:text-5xl font-zen text-white">our services</h1>
+          <h1 className="absolute top-10 text-4xl lg:text-5xl font-zen text-white">our<br /> services</h1>
           
           {/* <button ref={previousCard} className=' text-white hidden md:block mr-2'>
             <svg xmlns="http://www.w3.org/2000/svg" className=" h-20 w-10" fill="none" viewBox="6 0 10 24" stroke="currentColor" strokeWidth="2">

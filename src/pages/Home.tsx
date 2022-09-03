@@ -11,18 +11,20 @@ type Props = {}
 const Home = () => {
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'url("images/banner__nordiskasolutions__home.jpg")'}}>
-          <h1 className=" text-base md:text-2xl text-nsgreen">@nordiskasolutions</h1>
-          <h2 className=" text-3xl md:text-3xl lg:text-5xl text-white text-shadow">we are committed to providing optimal nordic <span className=" text-nsgreen">cleantech</span> solutions</h2>
-          <h3 className=" text-base md:text-lg text-white hidden md:block">to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></h3>
+        <HeroSection bgCSS={{ backgroundImage : 'url("images/banner__nordiska__solutions__home.jpg")'}}>
+          <h1 className=" text-sm md:text-2xl text-white bg-[#00A3FF] w-fit px-2 rounded-3xl mb-2">@nordiskasolutions</h1>
+          <h2 className=" text-2xl md:text-3xl lg:text-3xl text-white mb-2">we are committed to providing optimal nordic <span className=" ">cleantech</span> solutions</h2>
+          <h3 className=" text-sm md:text-lg text-white md:block">to today’s challenges across the nation and around the world and to preparing for <span className="">tomorrow’s environmental trends.</span></h3>
         </HeroSection>
         
-        <ServicesCards />
+        
 
         <ContentSection>
           {{
               contentBgCSS : {
-                backgroundImage :'url("/images/banner__about__2.jpg")'
+                backgroundImage :'url("/images/banner__about__2.jpg")',
+                paddingBottom : '5rem',
+                paddingTop : '1rem'
               },
               contentTitle : "who we are",
               contentBody : (
@@ -33,6 +35,7 @@ const Home = () => {
           }}
         </ContentSection>
 
+        <ServicesCards />
         
 
         <Footer />

@@ -5,7 +5,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className="content-wrapper bg-[#2D2F36]">
+    <div className="content-wrapper bg-[#2D2F36] pt-10 -mt-20">
         <div className="container md:flex relative md:space-x-20">
             <div className="w-full md:w-[70%] py-10 md:p-0">
                 <a href="#">
