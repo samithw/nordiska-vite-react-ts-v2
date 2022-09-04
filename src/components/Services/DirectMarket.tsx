@@ -11,7 +11,7 @@ const DirectMarket = (props: Props) => {
       <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/images/banner__direct__market.jpg")' }}>
         {{
           pageTag : <>services</>,
-          bigTextHeading : <>Direct Market <br />Entrance </>
+          bigTextHeading : <>direct market <br />entrance </>
         }}
       </HeroSection>
 
@@ -22,10 +22,10 @@ const DirectMarket = (props: Props) => {
             {{
               contentBody : (<>
 
-                <p>We manage your business in Asia-Pacific during the initial stages of your market entrance, literally creating your “own” Asian office or acting as your agent or partner Asia-Pacific region. Specific countries can be selected according to your preference. Nordiska Solutions will directly involve with end users, EPC contractors and win reference customers for you. Moreover, Nordiska Solutions can set up your representative channel and establish relationships with strategic partners, requiring only a minimal investment in resources from your end.</p>
+                <p>we manage your business in the asia-pacific region during the initial stages of your market entrance, literally creating your “own” asian office, or acting as your agent/partner in the region. specific countries can be selected according to your preference. nordiska solutions will directly engage with end-users, epc contractors, and win reference customers for you. moreover, nordiska solutions can set up your representative channel and establish relationships with strategic partners, requiring only a minimal investment in resources on your part.</p>
 
               </>),
-              contentTitle : "Establish relationships with strategic partners",
+              contentTitle : "establish relationships with strategic partners",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>
@@ -44,12 +44,12 @@ const DirectMarket = (props: Props) => {
             {{
               contentBody : (<>
    
-                <p>Nordiska Solutions executives have extensive experience in the Asia-Pacific, Middle East and European business and large network of personal contacts at numerous companies in the region, particularly in cleantech sector.  The quality of these valuable contacts assures that Nordiska Solutions can quickly enter into the respective parties to generate win-win business with your technology, products and solutions, upon which you could build your future business relationship. </p>
+                <p>nordiska solutions executives have extensive experience in asia-pacific, middle eastern and european businesses, and a large network of personal contacts at numerous companies in the region – particularly in the cleantech sector. the quality of these valuable contacts assures that nordiska solutions can quickly liaise with the respective parties to generate win-win business solutions for your technology, products and solutions, upon which you could build your future business relationship.</p>
 
-                <p className='mt-10'>If you need detailed information, we would be delighted to get in touch with you.</p>
+                <p className='mt-10'>if you need detailed information, we would be delighted to get in touch with you.</p>
 
               </>),
-              contentTitle : "Extensive experience in the Asia-Pacific, Middle East and European business",
+              contentTitle : "extensive experience in asia-pacific, middle eastern and european businesses",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>

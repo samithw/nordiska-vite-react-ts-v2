@@ -10,7 +10,7 @@ const DirectSales = (props: Props) => {
     <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__direct__touch__sales.jpg")' }}>
       {{
         pageTag : <>services</>,
-        bigTextHeading : <>Direct touch sales<br />activities</>
+        bigTextHeading : <>direct touch sales<br />activities</>
       }}
     </HeroSection>
 
@@ -20,9 +20,9 @@ const DirectSales = (props: Props) => {
         <ContentLayout2Col uniqueId='business-matchmaking'>
           {{
             contentBody : (<>
-              <p>Together with our partners we Nordisak Solutions has developed an effective mechanism on how to identify the most important sales and marketing obstacles and means to tackle them. Unique mix of marketing methods and customer experience knowledge enables us to identify the best solutions for your business segment and compile it to implement it. Doing this way, we assure fast entry to your product and services in target markets.</p>
+              <p>together with our partners, we, nordiska solutions, have developed an effective mechanism to identify the most important sales and marketing obstacles, and the means to tackle them. a unique mix of marketing methods and customer experience knowledge enables us to identify the best solutions for your business segment, compile and implement them. this way, we assure fast entry of your product(s) and service(s) in target markets.</p>
             </>),
-            contentTitle : "Unique mix of marketing methods",
+            contentTitle : "a unique mix of marketing methods",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>

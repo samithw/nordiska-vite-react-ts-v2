@@ -15,7 +15,7 @@ const BusinessMatch = (props: Props) => {
       <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) , url("/images/banner__business__matchmaking.jpg")' }}>
           {{
           pageTag : <>services</>,
-          bigTextHeading : <>Business <br />Matchmaking</>
+          bigTextHeading : <>business <br />matchmaking</>
         }}
       </HeroSection>
 
@@ -25,8 +25,9 @@ const BusinessMatch = (props: Props) => {
           <ContentLayout2Col uniqueId='business-matchmaking'>
             {{
               contentBody : (<>
-                <p>Are you looking for a sales partner or distributor for your products or services who can open the door to the Asia-Pacific region? Or, are you looking high-end technology and solutions provider/manufacture in cleantech sector from Nordic and Central Europe region?  Or would you like to outsource your production segments in Asia-Pacific region to bring competitive advantage to your product and services?</p>
-                <p className='mt-10'>Our partner search program helps international companies find an agent, representative, distributor or potential outsourcing companies in Asia-Pacific region, and for the Asian-Pacific companies to find potential manufacturing companies and technology providers from the Nordic / central European region.</p>
+                <p>are you looking for a sales partner, a distributor for your product(s) or service(s) who can open the door to the asia-pacific region? are you looking for a high-end technology and solutions provider/manufacturer in the cleantech sector from the nordic and central european region? would you like to outsource your production segments in the asia-pacific region to bring in a competitive advantage to your product(s) and service(s)?</p>
+
+                <p className='mt-10'>our partner search program helps international companies find an agent, representative, distributor or potential outsourcing company in the asia-pacific region, and  also helps asia-pacific companies find potential manufacturing companies and technology providers in the nordic/central european region.</p>
                 
 
                 {/* 
@@ -34,7 +35,7 @@ const BusinessMatch = (props: Props) => {
                 <p>We also coordinate and optimize the B2B meetings according to the participants profiles while guaranteeing that they will only come meet with qualified profiles.</p> */}
 
               </>),
-              contentTitle : "Competitive advantage to your product and services",
+              contentTitle : "a competitive advantage for your product(s) and service(s)",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>
@@ -53,12 +54,12 @@ const BusinessMatch = (props: Props) => {
             {{
               contentBody : (<>
    
-                <p>We find potential business partners based on your criteria. We tailor according to your industry, technology, experience, products or services, relationship with or without third party.  Our partner search program includes a basic market overview and a comprehensive business profile on companies interested in a mutual partnership. In addition, we provide sufficient description of companies that are not interested to enter such relationship and their reasons for doing so.</p>
+                <p>we find potential business partners based on your criteria. we offer tailor-made solutions according to your industry, technology, experience, products or services, relationship with or without third party. our partner search program includes a basic market overview and a comprehensive business profile on companies interested in a mutual partnership. we also provide descriptions of companies that are not interested in entering such a relationship and their reasons for not doing so.</p>
                 
-                <p className='mt-10'><b>We also coordinate and optimize the B2B meetings according to the participants profiles while guaranteeing that they will only come meet with qualified profiles.</b></p>
+                <p className='mt-10'><b>we coordinate and optimize b2b meetings according to participants’ profiles, while guaranteeing that only qualifying profiles meet.</b></p>
 
               </>),
-              contentTitle : "Relationship with or without third party",
+              contentTitle : "relationship with or without third party",
               contentImageURL : "/images/icon__business__match.png",
             }}
           </ContentLayout2Col>
