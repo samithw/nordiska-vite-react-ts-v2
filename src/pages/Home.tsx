@@ -16,7 +16,7 @@ const Home = () => {
           {{
             pageTag : "@nordiskasolutions",
             bigTextHeading : <>we are committed to providing optimal nordic <span className=" text-nsgreen">cleantech</span></>,
-            smallText : <>to today’s challenges across the nation and around the world and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends</span></>
+            smallText : <>to address today’s challenges across the nation and around the world, and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></>
           }}
 
         </HeroSection>
@@ -30,7 +30,7 @@ const Home = () => {
               },
               contentTitle : "who we are",
               contentBody : (
-              <p>Nordiska Solutions is Finnish-Malaysian joint company which has developed a cluster business concept with some leading environmental companies in Europe and Japan who are active in water, wastewater and solids waste management technologies and solutions.</p>
+              <p>nordiska solutions is a finnish-malaysian joint company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions.</p>
               ),
               contentImageURL : "/images/icon__who.png",
               contentLink : <NavLink to='/about' className='btn-type1'>see more</NavLink>

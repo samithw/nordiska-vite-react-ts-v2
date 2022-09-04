@@ -9,7 +9,7 @@ const ServicesIndex = (props: Props) => {
   return (
     <>
 
-    <HeroSection bgCSS={{backgroundImage : 'url("/images/banner__services__2.jpg")'}}>
+    <HeroSection bgCSS={{backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/images/banner__services__2.jpg")'}}>
         {{
           pageTag : <>services</>,
           bigTextHeading : <>we constantly work with our partners by providing<span className=" text-nsgreen"> scalable and customizable </span>solutions </>,

@@ -52,14 +52,14 @@ const Navbar = (props: Props) => {
         <li className="nav-item has-sub-menu">
           <NavLink to="/services"><span>services</span></NavLink>
           <ul className='md:absolute p-0 m-0 hidden border-2 border-teal-600 bg-[#282828] bg-opacity-70 rounded-b-xl md:rounded-tr-xl '>
-            <li className=' sub-nav'><NavLink to="/services/business-matchmaking"><span>Business Matchmaking</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/direct-market-entrance"><span>Direct market entrance</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/direct-touch-sales-activities"><span>Direct touch sales activities</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/inbound-outbound-marketing"><span>Inbound and outbound marketing</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/channel-development-channel-management"><span>Channel development and Channel management</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/sales-outsourcing"><span>Sales outsourcing</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/gateway-to-indian-market"><span>Gateway to Indian market</span></NavLink></li>
-            <li className=' sub-nav'><NavLink to="/services/building-information-modeling"><span>BIM – Building Information Modeling (CAD 2 Revit) </span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/business-matchmaking"><span>business matchmaking</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/direct-market-entrance"><span>direct market entrance</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/direct-touch-sales-activities"><span>direct touch sales activities</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/inbound-outbound-marketing"><span>inbound and outbound marketing</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/channel-development-channel-management"><span>channel development and channel management</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/sales-outsourcing"><span>sales outsourcing</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/gateway-to-indian-market"><span>gateway to indian market</span></NavLink></li>
+            <li className=' sub-nav'><NavLink to="/services/building-information-modeling"><span>building information modeling</span></NavLink></li>
           </ul>
         </li>
         <li className="nav-item">
