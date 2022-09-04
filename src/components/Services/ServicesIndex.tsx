@@ -12,13 +12,13 @@ const ServicesIndex = (props: Props) => {
     <HeroSection bgCSS={{backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/images/banner__services__2.jpg")'}}>
         {{
           pageTag : <>services</>,
-          bigTextHeading : <>we constantly work with our partners by providing<span className=" text-nsgreen"> scalable and customizable </span>solutions </>,
-          smallText : <>that support their profitable growth</>
+          bigTextHeading : <>we continuously work with our partners by providing<span className=" text-nsgreen"> scalable and customizable </span>solutions </>,
+          smallText : <>that support their profitable growth.</>
         }}
     </HeroSection>
 
     <PageQuote>
-        <p>Nordiska Solutions help innovative engineering companies, EPC contractors, End-users, Consulting companies extend their reach into Europe, and Asia Pacific by providing expert sales, business development and inbound/outbound marketing services. We constantly work with our partners by providing scalable and customizable solutions that support their profitable growth.</p>
+        <p>nordiska solutions helps innovative engineering companies, epc contractors, end-users, consulting companies extend their reach into europe, and the asia-pacific region by providing expert sales, business development and inbound/outbound marketing services. We constantly work with our partners by providing scalable and customizable solutions that support their profitable growth.</p>
     </PageQuote>
 
     <ServicesCards />

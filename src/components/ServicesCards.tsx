@@ -60,9 +60,9 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__business__matchmaking.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Business Matchmaking",
+                  cardTitle : "business matchmaking",
 
-                  cardSummary : "Are you looking for a sales partner or distributor for your products or services who can open the door to the Asia-Pacific region? Or, are you looking high-end technology and solutions provider/manufacture in cleantech sector from Nordic and Central Europe region?",
+                  cardSummary : "",
 
                   cardLink : <NavLink to='/services/business-matchmaking' className='btn-w'>see more</NavLink>
                 }}
@@ -75,8 +75,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__direct__market.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Direct Market Entrance",
-                  cardSummary : "We manage your business in Asia-Pacific during the initial stages of your market entrance, literally creating your “own” Asian office or acting as your agent or partner Asia-Pacific region. Specific countries can be selected according to your preference.",
+                  cardTitle : "direct market entrance",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/direct-market-entrance' className='btn-w'>see more</NavLink>
                 }}
 
@@ -88,8 +88,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__direct__touch__sales.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Direct Touch Sales Activities",
-                  cardSummary : "Together with our partners we Nordiska Solutions has developed an effective mechanism on how to identify the most important sales and marketing obstacles and means to tackle them. ",
+                  cardTitle : "direct touch sales activities",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/direct-touch-sales-activities' className='btn-w'>see more</NavLink>
                 }}
 
@@ -101,8 +101,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__inbound__outbound.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Inbound & Outbound Marketing",
-                  cardSummary : "By using inbound marketing, we help you generate qualified leads and increase awareness of your, thereby to increase sales. We create original content, such as blog posts to attract the right people and refine them further to influence purchase decision.",
+                  cardTitle : "inbound and outbound marketing",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/inbound-outbound-marketing' className='btn-w'>see more</NavLink>
                 }}
 
@@ -114,8 +114,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__channel__development.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Channel development & Channel management",
-                  cardSummary : "Our approach to sales transformations is comprehensive. We constantly follow how and to whom companies sell their products and services, the channels they use, and the back-office functions that support these efforts. ",
+                  cardTitle : "channel development and channel management",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/channel-development-channel-management' className='btn-w'>see more</NavLink>
                 }}
 
@@ -127,8 +127,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__sales__outsourcing.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Sales outsourcing",
-                  cardSummary : "Looking to expand your sales team or let someone to handle the Sales for you? Sales outsourcing, an efficient and effective alternative?",
+                  cardTitle : "sales outsourcing",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/sales-outsourcing' className='btn-w'>see more</NavLink>
                 }}
 
@@ -141,8 +141,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__indian__market.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Gateway to Indian market",
-                  cardSummary : "For any brand to target a particular market, it is very important for it to tap into its culture, network, and business pattern etc. And to facilitate this, it needs the help of local expertise who understands both sides and can accordingly help with progressive next steps for the same.",
+                  cardTitle : "gateway to indian market",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/gateway-to-indian-market' className='btn-w'>see more</NavLink>
                 }}
 
@@ -155,8 +155,8 @@ const ServicesCards = (props: Props) => {
                     backgroundImage : 'url("/images/banner__building__modeling.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
-                  cardTitle : "Building Information Modeling",
-                  cardSummary : "We, Nordiska Solutions Sdn. bhd. of Malaysia, pleased to announce our partnership agreement with IBS-Projects, a Finnish-Malaysian expertise, specialized in Building Information Modeling (BIM) solutions.",
+                  cardTitle : "building information modeling",
+                  cardSummary : "",
                   cardLink : <NavLink to='/services/building-information-modeling' className='btn-w'>see more</NavLink>
                 }}
 
