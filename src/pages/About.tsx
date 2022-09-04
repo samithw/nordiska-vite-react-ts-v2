@@ -11,7 +11,7 @@ const About = (props: Props) => {
         
           {{
             pageTag : <>about us</>,
-            bigTextHeading : <>the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</>
+            bigTextHeading : <>the <br /> <span className="text-nsgreen">nordiska</span> story</>
           }}
         
         </HeroSection>
