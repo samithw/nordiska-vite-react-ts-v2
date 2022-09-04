@@ -8,7 +8,12 @@ const About = (props: Props) => {
   return (
     <>
         <HeroSection bgCSS={{ backgroundImage : 'url("/images/banner__about__us.jpg")' }}>
-          <h1 className=" text-4xl md:text-5xl text-white">the <br /> <span className="text-nsgreen">nordiska</span> <br /> story</h1>
+        
+          {{
+            pageTag : <>about us</>,
+            bigTextHeading : <>the <br /> <span className="text-nsgreen">nordiska</span> story</>
+          }}
+        
         </HeroSection>
         <PageQuote>
           <span>We strive to implement long term relationships with our clients, based on extensive industry knowhow, quality services, reliable technologies and thorough understanding of all parties involved in the business &nbsp;</span>
