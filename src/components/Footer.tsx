@@ -7,7 +7,7 @@ const Footer = (props: Props) => {
   return (
     <div className="content-wrapper bg-[#2D2F36]">
         <div className="container md:flex relative md:space-x-20">
-            <div className="w-full md:w-[70%] py-10 md:p-0">
+            <div className="w-full md:w-[70%] md:p-0">
                 <a href="#">
                     <img
                     className="h-10 aspect-auto align-middle"

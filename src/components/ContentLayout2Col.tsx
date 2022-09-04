@@ -18,7 +18,7 @@ const ContentLayout2Col = (props : Props) => {
 
     return(
         <>       
-            <div className="flex flex-col md:flex-row my-10 md:gap-x-[3vw]">
+            <div className="flex flex-col md:flex-row my-5 md:gap-x-[3vw]">
                 <div className=' md:w-[35%] md:border-r-4 md:pr-[3vw] shrink-0 break-words'>
                     <h3 className="font-zen text-3xl mb-10 md:text-3xl md:text-right text-nsgreen lg:text-4xl">{props.children.contentTitle}</h3>
                 </div>

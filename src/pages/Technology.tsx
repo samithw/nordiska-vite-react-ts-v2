@@ -36,10 +36,10 @@ const Technology = (props: Props) => {
             {{
               contentBgCSS : {
                 //backgroundColor : '#1E293B',
-                backgroundImage : 'linear-gradient(rgba(12, 31, 46, 0.9), rgba(12, 31, 46, 0.9)) , url("/images/banner__technology__5.jpg")',
+                backgroundImage : 'linear-gradient(rgba(12, 31, 46, 0.9), rgba(12, 31, 46, 0.9)) , url("/images/banner__technology__1.jpg")',
                 
               },
-              contentTitle : "Technology",
+              contentTitle : "technology",
               contentBody : (
                 <>
                   
@@ -94,7 +94,7 @@ const Technology = (props: Props) => {
 
 
         <CommonContainer contentBgCSS = {{ backgroundColor : '#081840' }}>
-          <h1 className=' font-zen text-4xl mb-10'>Technology solutions we offer</h1>
+          <h1 className=' font-zen text-4xl mb-10'>technology solutions we offer</h1>
         <ContentLayout2Col>
               {{
                 contentBody : <>
@@ -159,7 +159,7 @@ const Technology = (props: Props) => {
                 </div>
 
                 </>,
-                contentTitle : "For Municipal and industrial water and wastewater applications",
+                contentTitle : "for municipal and industrial water and wastewater applications",
                 contentImageURL : ""
               }}
             </ContentLayout2Col>
