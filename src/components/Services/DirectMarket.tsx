@@ -8,7 +8,7 @@ type Props = {}
 const DirectMarket = (props: Props) => {
   return (
     <>
-      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) , url("/images/banner__direct__market.jpg")' }}>
+      <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) , url("/images/banner__direct__market__2.jpg")' }}>
         {{
           pageTag : <>services</>,
           bigTextHeading : <>direct market <br />entrance </>
