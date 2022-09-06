@@ -34,9 +34,9 @@ const SalesOutsourcing = (props: Props) => {
         <ContentSeparater bgCSS={{ backgroundColor : "#773B62" }}>
           {{
             imageURLs : [
-              "/images/icon__type2__discussion.png",
-              "/images/icon__business__support.png",
-              "/images/icon2__sales__marketing.png",
+              "/images/icon__sales__outsourcing__1.png",
+              "/images/icon__sales__outsourcing__2.png",
+              "/images/icon__sales__outsourcing__3.png",
               ]
           }}
         </ContentSeparater>

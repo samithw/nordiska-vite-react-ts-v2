@@ -36,9 +36,9 @@ const ChannelDev = (props: Props) => {
             <ContentSeparater bgCSS={{ backgroundColor : "#63a39a" }}>
               {{
                 imageURLs : [
-                  "/images/icon__business__4.png",
-                  "/images/icon__business__2.png",
-                  "/images/icon__business__1.png",
+                  "/images/icon__channel__1.png",
+                  "/images/icon__channel__2.png",
+                  "/images/icon__channel__3.png",
                   ]
               }}
             </ContentSeparater>

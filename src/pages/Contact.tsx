@@ -67,12 +67,12 @@ const Contact = (props: Props) => {
 
           
           
-          <ContentSeparater bgCSS = {{ backgroundColor : "#081840" }}>
+          <ContentSeparater bgCSS = {{ backgroundColor : "#0b7dc4" }}>
               {{
                 imageURLs : [
-                  "/images/icon__contact__call.png",
-                  "/images/icon__contact__email.png",
-                  "/images/icon__contact__chat.png",
+                  "/images/icon__contact__1.png",
+                  "/images/icon__contact__2.png",
+                  "/images/icon__contact__3.png",
                   ]
               }}
             </ContentSeparater>

@@ -40,12 +40,12 @@ const BusinessMatch = (props: Props) => {
             }}
           </ContentLayout2Col>
 
-          <ContentSeparater bgCSS={{ backgroundColor : "#63a39a" }}>
+          <ContentSeparater bgCSS={{ backgroundColor : "#eadabb" }}>
               {{
                 imageURLs : [
-                  "/images/icon__business__4.png",
-                  "/images/icon__business__2.png",
-                  "/images/icon__business__1.png",
+                  "/images/icon__business__match__3.png",
+                  "/images/icon__business__match__1.png",
+                  "/images/icon__business__match__2.png",
                   ]
               }}
             </ContentSeparater>

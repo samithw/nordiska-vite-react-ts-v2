@@ -35,9 +35,9 @@ const InboundOut = (props: Props) => {
         <ContentSeparater bgCSS={{ backgroundColor : "#1F644A" }}>
               {{
                 imageURLs : [
-                  "/images/icon__technology.png",
-                  "/images/icon2__consultancy.png",
-                  "/images/icon__business__match.png",
+                  "/images/icon__inbound__1.png",
+                  "/images/icon__inbound__2.png",
+                  "/images/icon__inbound__3.png",
                   ]
               }}
             </ContentSeparater>

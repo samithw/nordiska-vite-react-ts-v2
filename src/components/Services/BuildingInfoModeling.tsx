@@ -34,9 +34,9 @@ const BuildingInfoModeling = (props: Props) => {
         <ContentSeparater bgCSS={{ backgroundColor : "#3F5157" }}>
           {{
             imageURLs : [
-              "/images/icons8-auto-cad-64.png",
-              "/images/icons8-cad-64.png",
-              "/images/icons8-cad-64__2.png"
+              "/images/icon__bim__1.png",
+              "/images/icon__bim__2.png",
+              "/images/icon__bim__3.png"
               ]
           }}
         </ContentSeparater>

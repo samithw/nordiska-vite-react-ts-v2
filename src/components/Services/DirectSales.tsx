@@ -30,9 +30,9 @@ const DirectSales = (props: Props) => {
         <ContentSeparater bgCSS={{ backgroundColor : "#d3a163" }}>
               {{
                 imageURLs : [
-                  "/images/icon__business__13.png",
-                  "/images/icon__business__14.png",
-                  "/images/icon__business__19.png",
+                  "/images/icon__direct__sales__1.png",
+                  "/images/icon__direct__sales__2.png",
+                  "/images/icon__direct__sales__3.png",
                   ]
               }}
             </ContentSeparater>

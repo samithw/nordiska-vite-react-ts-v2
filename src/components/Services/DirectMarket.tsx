@@ -33,9 +33,9 @@ const DirectMarket = (props: Props) => {
           <ContentSeparater bgCSS={{ backgroundColor : "#146083" }}>
               {{
                 imageURLs : [
-                  "/images/icon__business__17.png",
-                  "/images/icon__business__4.png",
-                  "/images/icon__business__5.png",
+                  "/images/icon__direct__markets__4.png",
+                  "/images/icon__direct__markets__2.png",
+                  "/images/icon__direct__markets__3.png",
                   ]
               }}
             </ContentSeparater>

@@ -38,8 +38,8 @@ const Technology = (props: Props) => {
         <ContentSection>
             {{
               contentBgCSS : {
-                //backgroundColor : '#1E293B',
-                backgroundImage : 'linear-gradient(rgba(12, 31, 46, 0.9), rgba(12, 31, 46, 0.9)) , url("/images/banner__technology__1.jpg")',
+                backgroundColor : '#1E293B',
+                //backgroundColor : '#081840',
                 
               },
               contentTitle : "technology",
@@ -51,7 +51,7 @@ const Technology = (props: Props) => {
                   <p className='mt-10'>we constantly work together with our customers and technology providers in order to guarantee the highest level of customer satisfaction and sustainability. the success of our clients depends on the skills and commitment of our people, and we constantly pursue innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
                 </> 
               ),
-              contentImageURL : "/images/icon__technology__6.png"
+              contentImageURL : "/images/icon__technology__8.png"
               
             }}
         </ContentSection>
