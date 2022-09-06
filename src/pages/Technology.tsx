@@ -22,10 +22,8 @@ const Technology = (props: Props) => {
             
             {{
             pageTag : <>nordic high-end cleantech</>,
-            bigTextHeading : <>we are committed to providing optimal <span className="text-nsgreen">nordic cleantech</span></>,
-            smallText : <>solutions
-
-            to today’s challenges across the nation and around the world, and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></>
+            bigTextHeading : <>we provide a <span className='text-nsgreen'>range of global services</span> to businesses in waste management</>,
+            smallText : <>with today’s <span className='text-nsgreen'>top-of-the-line technology</span> and anticipating tomorrow’s environmental trends</>
           }}
 
         </HeroSection>

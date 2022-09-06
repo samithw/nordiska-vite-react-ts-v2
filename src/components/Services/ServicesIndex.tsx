@@ -11,9 +11,9 @@ const ServicesIndex = (props: Props) => {
 
     <HeroSection bgCSS={{backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("/images/banner__services__2.jpg")'}}>
         {{
-          pageTag : <>services</>,
-          bigTextHeading : <>we continuously work with our partners by providing<span className=" text-nsgreen"> scalable and customizable </span>solutions </>,
-          smallText : <>that support their profitable growth.</>
+          pageTag : <>a wide offering </>,
+          bigTextHeading : <>we work with <br /> <span className='text-nsgreen'>our partners</span> constantly</>,
+          smallText : <>providing customizable solutions in cleantech for profitable growth</>
         }}
     </HeroSection>
 

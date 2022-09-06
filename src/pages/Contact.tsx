@@ -13,9 +13,9 @@ const Contact = (props: Props) => {
     <>
         <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)) , url("/images/banner__contact.jpg")' }}>
           {{
-            pageTag : <>contact us</>,
-            bigTextHeading : <>you are on the <br />right path to <span className=" text-nsgreen"> greatness </span></>,
-            smallText : <>we are here to help you get there <span className=" text-nsgreen">efficiently</span> </>
+            pageTag : <>get in touch</>,
+            bigTextHeading : <>you are <span className='text-nsgreen'>on track</span> to global expansion</>,
+            smallText : <>our well-established presence and partnerships are there for you</>
           }}
         </HeroSection>
 
@@ -25,7 +25,7 @@ const Contact = (props: Props) => {
               {{
                 contentBody : (<>
 
-<div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
               <ContactCard>
                 {{
                   contactHeader : "malaysia",
