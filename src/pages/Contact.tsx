@@ -15,7 +15,7 @@ const Contact = (props: Props) => {
           {{
             pageTag : <>contact us</>,
             bigTextHeading : <>you are on the <br />right path to <span className=" text-nsgreen"> greatness </span></>,
-            smallText : <>we are here to help you get there</>
+            smallText : <>we are here to help you get there <span className=" text-nsgreen">efficiently</span> </>
           }}
         </HeroSection>
 
@@ -28,7 +28,7 @@ const Contact = (props: Props) => {
 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
               <ContactCard>
                 {{
-                  contactHeader : "Malaysia",
+                  contactHeader : "malaysia",
                   contactAddress : <>
                       <p>
                         <b>Nordiska Solutions sdn. bhd.</b> <br />
@@ -45,7 +45,7 @@ const Contact = (props: Props) => {
 
               <ContactCard>
                 {{
-                  contactHeader : "Finland",
+                  contactHeader : "finland",
                   contactAddress : <>
                       <p>
                         Local representative office <br />
@@ -60,7 +60,7 @@ const Contact = (props: Props) => {
           </div>
 
                 </>),
-                contentTitle : "Contact us",
+                contentTitle : "contact us",
                 contentImageURL : "/images/icon__business__match.png",
               }}
             </ContentLayout2Col>
@@ -78,14 +78,14 @@ const Contact = (props: Props) => {
             </ContentSeparater>
 
           <h1 className=" text-3xl md:text-4xl font-zen text-white py-10">
-              <span className="">Our International Partners</span>
+              <span className="">our international partners</span>
           </h1>
 
           <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
 
           <ContactCard>
                 {{
-                  contactHeader : "France",
+                  contactHeader : "france",
                   contactAddress : <>
                       <p>
                         <b>HYDRODYN SARL.</b> <br />
@@ -100,7 +100,7 @@ const Contact = (props: Props) => {
 
               <ContactCard>
                 {{
-                  contactHeader : "Germany",
+                  contactHeader : "germany",
                   contactAddress : <>
                       <p>
                         Mr Fritz Kropp <br />
@@ -115,7 +115,7 @@ const Contact = (props: Props) => {
 
             <ContactCard>
                 {{
-                  contactHeader : "India",
+                  contactHeader : "india",
                   contactAddress : <>
                       <p>
                         FLAT NO 2, SUDAMA 214, <br />
@@ -130,7 +130,7 @@ const Contact = (props: Props) => {
 
               <ContactCard>
                 {{
-                  contactHeader : "The Netherlands",
+                  contactHeader : "the netherlands",
                   contactAddress : <>
                       <p>
                         Ominawater, <br />
@@ -149,7 +149,7 @@ const Contact = (props: Props) => {
 
               <ContactCard>
                 {{
-                  contactHeader : "Vietnam",
+                  contactHeader : "vietnam",
                   contactAddress : <>
                       <p>
                         Nguyen Thi Phuong Thanh <br />

@@ -10,7 +10,7 @@ const ChannelDev = (props: Props) => {
         <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) , url("/images/banner__channel__development.jpg")' }}>
         {{
           pageTag : <>services</>,
-          bigTextHeading : <>Channel development and <br />Channel management</>
+          bigTextHeading : <>channel development and <br />channel management</>
         }}  
         </HeroSection>
     
@@ -20,15 +20,15 @@ const ChannelDev = (props: Props) => {
             <ContentLayout2Col uniqueId='business-matchmaking'>
               {{
                 contentBody : (<>
-                <p>Our approach to sales transformations is comprehensive. We constantly follow how and to whom companies sell their products and services, the channels they use, and the back-office functions that support these efforts. We also assist clients meet specific challenges in their go-to-market strategy, efficiency of salesforce, key-account management, and other key areas. 
+                <p>our approach to sales transformations is comprehensive. we constantly follow how and to whom companies sell their product(s) and service(s), the channels they use, and the back-office functions that support these efforts. we also help clients meet specific challenges in their go-to-market strategy, efficiency of salesforce, key-account management, and other key areas.
                 </p>
 
                 <p className='mt-10'>
-                We help clients make lasting improvements to the effectiveness of their sales investments and interactions with customers across all channels to drive sales growth.
+                we help clients make lasting improvements to the effectiveness of their sales investments and interactions with customers – across all channels – to drive sales growth.
                 </p>
     
                 </>),
-                contentTitle : "We help clients make lasting improvements",
+                contentTitle : "we help clients make lasting improvements",
                 contentImageURL : "/images/icon__business__match.png",
               }}
             </ContentLayout2Col>

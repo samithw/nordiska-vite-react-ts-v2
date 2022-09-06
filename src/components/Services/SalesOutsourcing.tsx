@@ -21,15 +21,12 @@ const SalesOutsourcing = (props: Props) => {
         <ContentLayout2Col uniqueId='business-matchmaking'>
           {{
             contentBody : (<>
-            <p>Looking to expand your sales team or let someone to handle the Sales for you? Sales outsourcing, an efficient and effective alternative 
-            </p>
+            <p>looking to expand your sales team, or let someone else handle sales for you? sales outsourcing is an efficient and effective alternative.</p>
 
-            <p className='mt-10'>
-            Hiring dedicated staff to build and manage your business in Asia Pacific is costly, whereas the return on investment is still difficult to predict. In addition. training new staff and obtaining the appropriate contacts and market knowledge can be a time and resource consuming process. We offer dedicated sales resources who could undertake the most time-consuming task in order to grow both your brand identity as well as revenue. We also offer Business development outsourcing services based on your business criteria. 
-            </p>
+            <p className='mt-10'>hiring dedicated staff to build and manage your business in the asia-pacific region is costly, and the return on investment is difficult to predict. training new staff and obtaining the appropriate contacts and market knowledge can be a time – and resource – consuming process. we offer dedicated sales resources who could undertake the most time-consuming task in order to grow your brand identity and revenue. we also offer business development outsourcing services based on your business criteria.</p>
 
             </>),
-            contentTitle : "Sales outsourcing, an efficient and effective alternative",
+            contentTitle : "sales outsourcing – an efficient and effective alternative",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>
@@ -47,21 +44,13 @@ const SalesOutsourcing = (props: Props) => {
         <ContentLayout2Col uniqueId='business-matchmaking'>
           {{
             contentBody : (<>
-            <p>Our sales experts have an extensive experience and market knowledge in the Asia-Pacific and Middle East markets. We know the corporate culture and background of the various prospects and have a considerable network which covers all area from consultant to end-users. With this working concept, you are able to “smell” the market in the specified area and to minimize your exposure to risk.  
-            </p>
+            
+            <p>our sales experts have extensive experience and market knowledge in the asia-pacific and middle east markets. we know the corporate culture and background of the various prospects, and have a considerable network which covers all areas – from consultant to end-users. with this working concept, you are able to “smell” the market in the specified region and minimize your risk exposure.</p>
 
-            <p className='mt-10'>
-            As of now, we have helped several European and Asian companies to materialized considerable business in Asia-Pacific region. We highly recommend you to Start your sales activities with us now. Our services are for your disposal. For more information, please contact <br /><ContactDetail>
-                        {{
-                            iconType : 'email',
-                            contactInfo : <a className=' underline' href='mailto:info@nordiskasolutions.com'>info@nordiskasolutions.com</a>
-                        }}
-                    </ContactDetail>
-                    
-            </p>
+            <p className='mt-10'>as of now, we have helped several european and asian companies to materialize considerable business in the asia-pacific region. we highly recommend you start your sales activities with us now. our services are at your disposal.</p>
 
             </>),
-            contentTitle : "Extensive experience and market knowledge",
+            contentTitle : "extensive experience and market knowledge",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>

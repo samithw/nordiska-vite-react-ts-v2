@@ -21,13 +21,12 @@ const BuildingInfoModeling = (props: Props) => {
           {{
             contentBody : (<>
             
-            <p>We, Nordiska Solutions Sdn. bhd. of Malaysia, pleased to announce our partnership agreement with IBS-Projects, a Finnish-Malaysian expertise, specialized in Building Information Modeling (BIM) solutions.</p>
+            <p>we, nordiska solutions sdn. bhd. of malaysia, are pleased to announce our partnership agreement with IBS Projects, a finnish-malaysian enterprise specializing in building information modeling (BIM) solutions.</p>
 
-            <p className='mt-10'>IBS-Projects is specialized in designing mechanical, electrical & plumbing systems for a wide array of different buildings. We have a team of highly trained and qualified designers who has helped countless clients create the structure of their dreams. We can help you to realize your vision and draft optimum REVIT models for facilitating construction. You can always be sure of excellent service and optimum support from our end which keeps you in the loop at all times. Our team also takes a client-centric approach, offering tailored solutions to meet your unique needs.
-            </p>
+            <p className='mt-10'>IBS Projects designs mechanical, electrical and plumbing systems for a wide array of buildings. we have a team of highly-trained and qualified designers who have helped countless clients create the structure of their dreams. we can help you realize your vision and draft optimum REVIT models for facilitating construction. you can always be sure of excellent service and optimum support from us, keeping you in the loop at all times. our team takes a client-centric approach, offering tailored solutions to meet your unique needs.</p>
 
             </>),
-            contentTitle : "Finnish-Malaysian expertise, specialized in Building Information Modeling",
+            contentTitle : "finnish-malaysian expertise, specialized in building information modeling",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>
@@ -47,14 +46,14 @@ const BuildingInfoModeling = (props: Props) => {
           {{
             contentBody : (<>
             
-            <p>We can help you sail past all stages of BIM planning and construction so that you can start constructing with full confidence. Our team also takes a client-centric approach, offering tailored solutions to meet your unique needs.</p>
+            <p>we can help you sail past all stages of BIM planning and construction so that you can start constructing with confidence.</p>
 
-            <p className='mt-10'>The best thing about our service is the affordable nature of our fees. We are always transparent about our pricing structure and pride ourselves on our affordability without compromising on quality.</p>
+            <p className='mt-10'>the best thing about our service is our affordable fees. we are always transparent about our pricing structure and pride ourselves on our affordability without compromising on quality.</p>
 
-            <p className='mt-10'>You can consult with our team to know more about our specific charges.</p>
+            <p className='mt-10'>consult with our team to know more about our specific charges.</p>
 
             </>),
-            contentTitle : "Affordable nature of our fees",
+            contentTitle : "affordable fees",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>

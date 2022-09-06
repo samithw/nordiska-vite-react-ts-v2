@@ -21,8 +21,11 @@ const Technology = (props: Props) => {
 
             
             {{
-            pageTag : <>technology</>,
-            bigTextHeading : <>nordic <br /> <span className="text-nsgreen">high-end</span> cleantech</>
+            pageTag : <>nordic high-end cleantech</>,
+            bigTextHeading : <>we are committed to providing optimal <span className="text-nsgreen">nordic cleantech</span></>,
+            smallText : <>solutions
+
+            to today’s challenges across the nation and around the world, and to preparing for <span className="text-nsgreen">tomorrow’s environmental trends.</span></>
           }}
 
         </HeroSection>
@@ -43,8 +46,9 @@ const Technology = (props: Props) => {
               contentBody : (
                 <>
                   
-                  <p >Nordiska Solutions is committed to provide primarily “Nordic” high-end cleantech products and solutions for both municipal and industrial applications. We offer customised solutions in water treatment, wastewater treatment and sloid waste management to our global customers.</p>
-                  <p className='mt-10'>We constantly work together with our customers and technology providers in order to guarantee the very highest level of customer satisfaction and sustainability. The success of our clients depends on the skills and commitment of our people and we constantly pursue the innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
+                  <p>nordiska solutions is committed to providing primarily “nordic” high-end cleantech products and solutions for both municipal and industrial applications. we offer customised solutions in water treatment, wastewater treatment and sloid waste management to our global customers.</p>
+
+                  <p className='mt-10'>we constantly work together with our customers and technology providers in order to guarantee the highest level of customer satisfaction and sustainability. the success of our clients depends on the skills and commitment of our people, and we constantly pursue innovative technology and cost-effective solutions for our clients, as we are driven to find answers where others fail.</p>
                 </> 
               ),
               contentImageURL : "/images/icon__technology__6.png"
@@ -59,12 +63,12 @@ const Technology = (props: Props) => {
                 contentBody : <>
                 {/* <p>We are committed to providing optimal Nordic cleantech solutions to today’s challenges across the nation and around the world and to preparing for tomorrow’s environmental trends.</p> */}
                 
-                <p>Our superior network, as referred in all our services, is the basis of success in building prospective partnerships. The wide range of connections enables us to offer diverse selections from each sector and business size.</p>
+                <p>our superior network, as referred in all of our services, is the basis of success in building prospective partnerships. the wide range of connections enables us to offer diverse selections from each sector and business size.</p>
 
-                <p className="mt-10">Whether you are seeking to find partners individually or on a corporate basis, we will provide you the perfect match according to your requirements.</p>
+                <p className="mt-10">whether you are seeking partners individually or on a corporate basis, we will provide you the perfect match for your requirements.</p>
 
                 </>,
-                contentTitle : "Our superior network",
+                contentTitle : "our superior network",
                 contentImageURL : ""
               }}
             </ContentLayout2Col>
@@ -83,9 +87,9 @@ const Technology = (props: Props) => {
               {{
                 contentBody : <>
                 
-                <p>We have tie-up with several European and Asian OEM Companies to provide cost effective products and solutions to municipal water and wastewater markets. Whether you need new piece of equipment or to replace existing system, we have the experience and engineering capabilities to deliver the most reliable and cost-effective products and solutions.</p>
+                <p>we have tie-ups with several european and asian oem companies to provide cost-effective products and solutions to municipal water and wastewater markets. whether you need a new piece of equipment or to replace an existing system, we have the experience and engineering capabilities to deliver the most reliable and cost-effective products and solutions.</p>
                 </>,
-                contentTitle : "Solutions with reach",
+                contentTitle : "solutions with reach",
                 contentImageURL : ""
               }}
             </ContentLayout2Col>
@@ -104,7 +108,7 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Pre-treatment equipment such as screens(fine, coarse, bend, rotary, drum etc.), disc and drum filters, compactors, slide gate etc."
+                    itemDescription : "pre-treatment equipment such as screens (fine, coarse, bend, rotary, drum etc), disc and drum filters, compactors, slide gate etc."
                   }}
                 </ListInfoCard>
 
@@ -118,42 +122,42 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Clarifier mechanisms ( non-metallic Chain & Flight sludge and scum collectors, bridge scrapers etc.)"
+                    itemDescription : "clarifier mechanisms (non-metallic chain and flight sludge and scum collectors, bridge scrapers etc.)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Lamella clarifiers for SWRO"
+                    itemDescription : "lamella clarifiers for SWRO"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Sludge thickening and dewatering (BFP, GBT, Multi-disc screw presses, screw presses etc.)"
+                    itemDescription : "sludge thickening and dewatering (BFP, GBT, multi-disc screw presses, screw presses etc.)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Chemical dosing systems"
+                    itemDescription : "chemical dosing systems"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Sludge disposal configurations (Cake hoppers, silo, conveyors etc.)"
+                    itemDescription : "sludge disposal configurations (cake hoppers, silo, conveyors etc.)"
                   }}
                 </ListInfoCard>
 
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "Self-cleaning filters, cumulative settling filters, customized automatic filters etc."
+                    itemDescription : "self-cleaning filters, cumulative settling filters, customized automatic filters etc."
                   }}
                 </ListInfoCard>
                 </div>
@@ -172,20 +176,20 @@ const Technology = (props: Props) => {
                   <ListInfoCard>
                     {{
                       itemIcon : "/images/icon__technology__2.png",
-                      itemDescription : "From manual sorting line to fully automated plant"
+                      itemDescription : "from manual sorting line to fully automated plant"
                     }}
                   </ListInfoCard>
 
                   <ListInfoCard>
                     {{
                       itemIcon : "/images/icon__technology__2.png",
-                      itemDescription : "Recycling and sorting to composting"
+                      itemDescription : "recycling and sorting to composting"
                     }}
                   </ListInfoCard>
                 </div>
 
                 </>,
-                contentTitle : "For solids waste managements",
+                contentTitle : "for solids waste management",
                 contentImageURL : ""
               }}
             </ContentLayout2Col>

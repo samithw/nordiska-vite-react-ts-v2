@@ -161,42 +161,6 @@ const ServicesCards = (props: Props) => {
                 }}
 
             </CarouselCard>
-            
-
-            {/* <NavLink className="icon-wrapper" to="/services#business-support">
-              <div className="w-2/3 aspect-square mx-auto">
-                <img className=" w-full aspect-auto" src="/images/icon__b__support.png" alt="" />
-              </div>
-              <p className="w-3/4 text-center text-xl font-zen text-white">Business Support</p>
-            </NavLink>
-             
-             <NavLink className="icon-wrapper" to="/services#sales-marketing">
-              <div className="w-2/3 aspect-square mx-auto">
-                <img className=" w-full aspect-auto" src="/images/icon__sales__marketing.png" alt="" />
-              </div>
-              <p className="w-3/4 text-center text-xl font-zen text-white">Sales &amp; Marketing</p>
-            </NavLink>
-            
-            <NavLink className="icon-wrapper" to="/services#tech-solutions">
-              <div className="w-2/3 aspect-square mx-auto">
-                <img className=" w-full aspect-auto" src="/images/icon__tech__solutions.png" alt="" />
-              </div>
-              <p className="w-3/4 text-center text-xl font-zen text-white">Technology Solutions</p>
-            </NavLink>
-
-            <NavLink className= "icon-wrapper" to="/services#business-matchmaking">
-              <div className="w-2/3 aspect-square mx-auto">
-                <img className=" w-full aspect-auto" src="/images/icon__b__matchmaking.png" alt="" />
-              </div>
-              <p className="w-3/4 text-center text-xl font-zen text-white">Business Matchmaking</p>
-            </NavLink>
-            
-            <NavLink className= "icon-wrapper" to="/services#consultancy">
-              <div className="w-2/3 aspect-square mx-auto">
-                <img className=" w-full aspect-auto" src="/images/icon__consultancy.png" alt="" />
-              </div>
-              <p className="w-3/4 text-center text-xl font-zen text-white">Consultancy</p>
-            </NavLink> */}
 
           </div>
 

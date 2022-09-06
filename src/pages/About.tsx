@@ -10,8 +10,9 @@ const About = (props: Props) => {
         <HeroSection bgCSS={{ backgroundImage : 'url("/images/banner__about__us.jpg")' }}>
         
           {{
-            pageTag : <>about us</>,
-            bigTextHeading : <>the <br /> <span className="text-nsgreen">nordiska</span> story</>
+            pageTag : <>the nordiska story</>,
+            bigTextHeading : <>we bridge two continents to bring you <span className=' text-nsgreen'>world-class</span> service</>,
+            smallText : <>to grow your business with <span className=' text-nsgreen'>high-end technologies and solutions</span></>
           }}
         
         </HeroSection>
