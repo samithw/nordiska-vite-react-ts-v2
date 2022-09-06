@@ -8,7 +8,7 @@ type Props = {}
 
 const IndianMarket = (props: Props) => {
   return (<>
-    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__indian__market.jpg")' }}>
+    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)) , url("/images/banner__indian__market.jpg")' }}>
       {{
         pageTag : <>services</>,
         bigTextHeading : <>gateway to <br />indian market</>

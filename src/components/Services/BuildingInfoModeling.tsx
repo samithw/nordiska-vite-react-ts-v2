@@ -7,7 +7,7 @@ type Props = {}
 
 const BuildingInfoModeling = (props: Props) => {
   return (<>
-    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__building__modeling.jpg")' }}>
+    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)) , url("/images/banner__building__modeling.jpg")' }}>
         {{
           pageTag : <>services</>,
           bigTextHeading : <>BIM – building information modeling (CAD 2 Revit)</>

@@ -7,7 +7,7 @@ type Props = {}
 const DirectSales = (props: Props) => {
   return (
     <>
-    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("/images/banner__direct__touch__sales.jpg")' }}>
+    <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)) , url("/images/banner__direct__touch__sales.jpg")' }}>
       {{
         pageTag : <>services</>,
         bigTextHeading : <>direct touch sales<br />activities</>
