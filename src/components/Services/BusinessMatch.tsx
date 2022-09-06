@@ -56,7 +56,7 @@ const BusinessMatch = (props: Props) => {
    
                 <p>we find potential business partners based on your criteria. we offer tailor-made solutions according to your industry, technology, experience, products or services, relationship with or without third party. our partner search program includes a basic market overview and a comprehensive business profile on companies interested in a mutual partnership. we also provide descriptions of companies that are not interested in entering such a relationship and their reasons for not doing so.</p>
                 
-                <p className='mt-10'><b>we coordinate and optimize b2b meetings according to participants’ profiles, while guaranteeing that only qualifying profiles meet.</b></p>
+                <p className='mt-10'>we coordinate and optimize b2b meetings according to participants’ profiles, while guaranteeing that only qualifying profiles meet.</p>
 
               </>),
               contentTitle : "relationship with or without third party",

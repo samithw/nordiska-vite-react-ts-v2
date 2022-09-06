@@ -72,7 +72,7 @@ const ServicesCards = (props: Props) => {
             <CarouselCard>
                 {{
                   bgColorStyle : {
-                    backgroundImage : 'url("/images/banner__direct__market.jpg")'
+                    backgroundImage : 'url("/images/banner__direct__market__2.jpg")'
                   },
                   cardImageURL : "/images/icon__type2__discussion.png",
                   cardTitle : "direct market entrance",
