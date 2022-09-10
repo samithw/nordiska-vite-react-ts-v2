@@ -24,7 +24,7 @@ const About = (props: Props) => {
         <div className="container flex flex-col gap-20 md:flex-row">
           <div className="text-white md:basis-1/2 font-zenMaru text-xl md:text-2xl">
             <h3 className="font-zen text-nsgreen text-4xl">history</h3>
-            <p className="my-10">nordiska solutions is a finnish-malaysian joint company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions.</p>
+            <p className="my-10">nordiska solutions is a finnish-malaysian company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions.</p>
 
             <p>this cluster business platform provides sophisticated and cost-effective solutions that are in the best interest of our clients, their customers, and the environment. the company’s founder has over 22 years experience in the cleantech field and extensive knowledge in international business.</p>
 

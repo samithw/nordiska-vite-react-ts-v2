@@ -30,7 +30,7 @@ const Home = () => {
               },
               contentTitle : "who we are",
               contentBody : (
-              <p>nordiska solutions is a finnish-malaysian joint company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions.</p>
+              <p>nordiska solutions is a finnish-malaysian company which has developed a cluster business concept with some leading environmental companies in europe and asia specialised in water, wastewater and solid waste management technologies and solutions.</p>
               ),
               contentImageURL : "/images/icon__who.png",
               contentLink : <NavLink to='/about' className='btn-type1'>see more</NavLink>

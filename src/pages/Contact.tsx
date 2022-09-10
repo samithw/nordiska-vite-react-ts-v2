@@ -46,14 +46,7 @@ const Contact = (props: Props) => {
               <ContactCard>
                 {{
                   contactHeader : "finland",
-                  contactAddress : <>
-                      <p>
-                        Local representative office <br />
-                        Vinkkelikuja 30, as 3C,<br />
-                        26660 Rauma,<br />
-                        Finland
-                      </p>
-                  </>,
+                  contactNumber : "+358414400345",
                   contactEmail : "info@nordiskasolutions.com"
                 }}
               </ContactCard>
@@ -103,7 +96,7 @@ const Contact = (props: Props) => {
                   contactHeader : "germany",
                   contactAddress : <>
                       <p>
-                        Mr Fritz Kropp <br />
+                        Mr. Fritz Kropp <br />
                         PV Consulting, <br />
                         D-79271 St. Peter/Black forest, <br />
                         Germany
@@ -118,9 +111,11 @@ const Contact = (props: Props) => {
                   contactHeader : "india",
                   contactAddress : <>
                       <p>
-                        FLAT NO 2, SUDAMA 214, <br />
-                        WALKESHWAR ROAD,<br />
-                        Mumbai,Maharashtra,<br />
+                        Mr. Nimish Shanghvi<br />
+                        A/302, Nishant,<br />
+                        Malviya  Road,<br />
+                        Vile – Parle (East),<br />
+                        Mumbai, Maharashtra,<br />
                         India
                       </p>
                   </>

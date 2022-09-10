@@ -4,7 +4,7 @@ import ContactDetail from './ContactDetail'
 type Props = {
     children : {
         contactHeader : string,
-        contactAddress : React.ReactNode,
+        contactAddress? : React.ReactNode,
         contactNumber? : string,
         contactEmail? : string
     }
@@ -18,11 +18,15 @@ const ContactCard = (props: Props) => {
   return (<>
     <div className='text-xl font-zenMaru'>
         <div className=' font-zen text-nsgreen text-2xl'> {props.children.contactHeader} </div>
-        <ContactDetail>
-                {{
-                    contactInfo : <div className='p-2'>{props.children.contactAddress}</div>
-                }}
-              </ContactDetail>  
+        {
+          props.children.contactAddress && (
+          <ContactDetail>
+            {{
+                contactInfo : <div className='p-2 capitalize'>{props.children.contactAddress}</div>
+            }}
+          </ContactDetail> 
+          )
+        }
         <div>
             
             
