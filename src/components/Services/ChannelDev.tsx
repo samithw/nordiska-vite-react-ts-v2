@@ -33,7 +33,7 @@ const ChannelDev = (props: Props) => {
               }}
             </ContentLayout2Col>
     
-            <ContentSeparater bgCSS={{ backgroundColor : "#63a39a" }}>
+            <ContentSeparater bgCSS={{ backgroundColor : "#486D6A" }}>
               {{
                 imageURLs : [
                   "/images/icon__channel__1.png",

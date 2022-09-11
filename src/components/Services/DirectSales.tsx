@@ -27,7 +27,7 @@ const DirectSales = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater bgCSS={{ backgroundColor : "#d3a163" }}>
+        <ContentSeparater bgCSS={{ backgroundColor : "#b7792d" }}>
               {{
                 imageURLs : [
                   "/images/icon__direct__sales__1.png",

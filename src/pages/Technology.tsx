@@ -106,7 +106,7 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "pre-treatment equipment such as screens (fine, coarse, bend, rotary, drum etc), disc and drum filters, compactors, slide gate etc."
+                    itemDescription : "pre-treatment equipment such as screens (fine, coarse, bend, rotary, drum etc), compactors, slide gate etc."
                   }}
                 </ListInfoCard>
 
@@ -155,7 +155,7 @@ const Technology = (props: Props) => {
                 <ListInfoCard>
                   {{
                     itemIcon : "/images/icon__technology__2.png",
-                    itemDescription : "self-cleaning filters, cumulative settling filters, customized automatic filters etc."
+                    itemDescription : "self - cleaning filters, cumulative settling filters, customized automatic filters, drum filters , disc filters  etc."
                   }}
                 </ListInfoCard>
                 </div>

@@ -50,12 +50,12 @@ const IndianMarket = (props: Props) => {
             
 
             </>),
-            contentTitle : "indian culture, network, and business pattern",
+            contentTitle : "indian culture, network, and business approach",
             contentImageURL : "/images/icon__business__match.png",
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater bgCSS={{ backgroundColor : "#7D5611" }}>
+        <ContentSeparater bgCSS={{ backgroundColor : "#783D45" }}>
           {{
             imageURLs : [
               "/images/icon__indian__market__1.png",
