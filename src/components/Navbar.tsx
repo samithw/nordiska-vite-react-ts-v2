@@ -41,7 +41,7 @@ const Navbar = (props: Props) => {
         className = { isHidden + ' fixed right-0 top-0 min-h-screen h-full w-2/3 z-10 font-zen text-lg bg-zinc-800 bg-opacity-90 pt-30 md:relative md:flex md:flex-row md:w-auto md:h-auto md:min-h-0 md:bg-transparent md:space-x-0 lg:space-x-5  md:top-0 text-white lg:text-base md:text-sm'}
       >
         <li className="nav-item">
-          <NavLink to="/"><span>home</span></NavLink>
+          <NavLink to="/home"><span>home</span></NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/about"><span>about</span></NavLink>

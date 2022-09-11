@@ -21,32 +21,36 @@ const IndianMarket = (props: Props) => {
         <ContentLayout2Col uniqueId='business-matchmaking'>
           {{
             contentBody : (<>
-            <p>for any brand to target a particular market, it is very important to tap into its culture, network, and business pattern etc. to facilitate this, it needs the help of local expertise that understands both sides, and can help with progressive next steps. nordiska solutions has a tie-up with an indian specialist helping global cleantech technology companies and brands thrive in the indian market. we have developed ‘act’ – advisory, consulting and technology – solutions that include the following:</p>
+            <p>it is well known that for any brand to grow and prosper in  a particular market, it is very essential  to learn and understand   its culture, network, and business approach pattern etc.</p>
+
+            <p className='mt-10'>To facilitate this smoothly , it needs the support  of local expertise that understands all the stakeholders and accordingly can provide support with progressive next steps. </p>
+
+            <p className='mt-10'>nordiska solutions has a tie-up with an indian specialist to support  global cleantech technology companies to develop, nurture and manage their brand in the indian market through its customised “ACT” - advisory, consulting and technology (implementation / customization)  services  that include the following but not limited to :</p>
 
             <div className='flex gap-5 flex-col my-10'>
               <ListInfoCard>
                     {{
                       itemIcon : "/images/icon__technology__2.png",
-                      itemDescription : "application development and management for international technology partners with entry/re-entry in the indian market."
+                      itemDescription : "application development and management in the indian market (entry / re-entry)"
                     }}
               </ListInfoCard>
 
               <ListInfoCard>
                     {{
                       itemIcon : "/images/icon__technology__2.png",
-                      itemDescription : "plant de-bottlenecking and management of operations (technical support) of existing wtps/stps/waste water recycling systems"
+                      itemDescription : "pilots (proof of concept) development and management"
                     }}
               </ListInfoCard>
 
               <ListInfoCard>
                     {{
                       itemIcon : "/images/icon__technology__2.png",
-                      itemDescription : "special project development and management of community wtps/stps/waste water recycle/desalination plants through technology support for associates/channel partners/oems/epc contractors"
+                      itemDescription : "project development and management"
                     }}
               </ListInfoCard>
             </div>
 
-            <p>for additional details of act solutions and services please get in touch with us.</p>
+            {/* <p>for additional details of act solutions and services please get in touch with us.</p> */}
             
 
             </>),
@@ -55,7 +59,7 @@ const IndianMarket = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater bgCSS={{ backgroundColor : "#783D45" }}>
+        {/* <ContentSeparater bgCSS={{ backgroundColor : "#783D45" }}>
           {{
             imageURLs : [
               "/images/icon__indian__market__1.png",
@@ -63,7 +67,7 @@ const IndianMarket = (props: Props) => {
               "/images/icon__indian__market__3.png"
               ]
           }}
-        </ContentSeparater>
+        </ContentSeparater> */}
 
       </CommonContainer>
   </>)

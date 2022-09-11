@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation, Navigate } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import BuildingInfoModeling from './components/Services/BuildingInfoModeling'
@@ -41,7 +41,7 @@ function App() {
       <ScrollToTop />
       <Header /> 
       <Routes>
-        <Route path='/' element= {<Home />}   />
+        <Route path='home' element= {<Home />}   />
         <Route path='about' element = {<About />} />
         <Route path='contact' element = {<Contact />} />
         <Route path='technology' element = {<Technology />} />
@@ -56,6 +56,8 @@ function App() {
           <Route path='gateway-to-indian-market' element = {<IndianMarket />} />
           <Route path='building-information-modeling' element = {<BuildingInfoModeling />} />
         </Route>
+        <Route path='/' element = { <Navigate to="/home" /> } />
+        <Route path='*' element = { <Navigate to="/home" /> } />
       </Routes>
     </>
   )
