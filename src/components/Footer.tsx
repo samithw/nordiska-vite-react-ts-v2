@@ -37,6 +37,13 @@ const Footer = (props: Props) => {
                         }}
                     </ContactDetail>
 
+                    <ContactDetail>
+                        {{
+                            iconType : 'phone',
+                            contactInfo : <span>+60192252875</span>
+                        }}
+                    </ContactDetail>
+
                     
 
                     </div>
