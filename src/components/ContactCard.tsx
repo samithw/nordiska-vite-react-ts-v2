@@ -6,6 +6,7 @@ type Props = {
         contactHeader : string,
         contactAddress? : React.ReactNode,
         contactNumber? : string,
+        contactNumber2? : string,
         contactEmail? : string
     }
 }
@@ -36,6 +37,18 @@ const ContactCard = (props: Props) => {
                 {{
                     iconType : 'phone',
                     contactInfo : <span>{props.children.contactNumber}</span>
+                }}
+              </ContactDetail>
+
+            )
+          }
+
+{
+            props.children.contactNumber2 && (
+              <ContactDetail>
+                {{
+                    iconType : 'phone',
+                    contactInfo : <span>{props.children.contactNumber2}</span>
                 }}
               </ContactDetail>
 

@@ -39,6 +39,7 @@ const Contact = (props: Props) => {
                       </p>
                   </>,
                   contactNumber : "+60194490345",
+                  contactNumber2 : "+60192252875",
                   contactEmail : "info@nordiskasolutions.com"
                 }}
               </ContactCard>
@@ -81,7 +82,7 @@ const Contact = (props: Props) => {
                   contactHeader : "france",
                   contactAddress : <>
                       <p>
-                        <b>HYDRODYN SARL.</b> <br />
+                        <b>Hydrodyn S.A.R.L</b> <br />
                         2 Av des Prés - BL104,<br />
                         78180 Montigny le Bretonneux,<br />
                         France
@@ -96,7 +97,7 @@ const Contact = (props: Props) => {
                   contactHeader : "germany",
                   contactAddress : <>
                       <p>
-                        Mr. Fritz Kropp <br />
+                        <b>Mr. Fritz Kropp</b> <br />
                         PV Consulting, <br />
                         D-79271 St. Peter/Black forest, <br />
                         Germany
@@ -111,7 +112,7 @@ const Contact = (props: Props) => {
                   contactHeader : "india",
                   contactAddress : <>
                       <p>
-                        Mr. Nimish Shanghvi<br />
+                        <b>Mr. Nimish Shanghvi</b><br />
                         A/302, Nishant,<br />
                         Malviya  Road,<br />
                         Vile – Parle (East),<br />
@@ -128,7 +129,7 @@ const Contact = (props: Props) => {
                   contactHeader : "the netherlands",
                   contactAddress : <>
                       <p>
-                        Ominawater, <br />
+                        <b>Omnia Water Treatment BV</b><br />
                         Witte Paal 35,<br />
                         1742 NL Schagen,<br />
                         Netherlands
@@ -147,7 +148,7 @@ const Contact = (props: Props) => {
                   contactHeader : "vietnam",
                   contactAddress : <>
                       <p>
-                        Nguyen Thi Phuong Thanh <br />
+                        <b>Nguyen Thi Phuong Thanh</b><br />
                         No. 30, 63/212/8 Le Duc Tho, <br />My Dinh 2 ward, <br />Nam Tu Liem district, <br />Hanoi <br />
                         Vietnam
                       </p>
