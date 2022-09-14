@@ -17,7 +17,7 @@ const Technology = (props: Props) => {
 
   return (
     <>
-        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.7)) , url("/images/banner__technology__2.jpg")' }}>
+        <HeroSection bgCSS={{ backgroundImage : 'linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)) , url("/images/banner__technology__4.jpg")' }}>
 
             
             {{

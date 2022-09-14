@@ -32,7 +32,7 @@ const InboundOut = (props: Props) => {
           }}
         </ContentLayout2Col>
 
-        <ContentSeparater bgCSS={{ backgroundColor : "#1F644A" }}>
+        <ContentSeparater bgCSS={{ backgroundColor : "#3F5157" }}>
               {{
                 imageURLs : [
                   "/images/icon__inbound__1.png",
